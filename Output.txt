@@ -1,0 +1,163 @@
+Max threads: 32
+MKL max threads: 16
+GEOSX version: 0.2.0 (develop, sha1: 03001e4b0)
+  - c++ compiler: gcc 11.3.0
+  - openmp version: 201511
+  - MPI version: Open MPI v4.1.2, package: Debian OpenMPI, ident: 4.1.2, repo rev: v4.1.2, Nov 24, 2021
+  - HDF5 version: 1.12.1
+  - Conduit version: 0.8.2
+  - VTK version: 9.1.0
+  - RAJA version: 2022.3.0
+  - umpire version: 2022.3.0
+  -  adiak version: ..
+  - caliper version: 2.8.0
+  - METIS version: 5.1.0
+  - PARAMETIS version: 4.0.3
+  - scotch version: 6.0.9
+  - superlu_dist version: 6.3.0
+  - suitesparse version: 5.7.9
+  - Python3 version: 3.10.6
+  - hypre release version: 2.28.0
+Adding Mesh: VTKMesh, mesh
+Adding Mesh: InternalWell, Injector_1_W
+Adding Mesh: InternalWell, Injector_2_W
+Adding Mesh: InternalWell, Injector_3_W
+Adding Mesh: InternalWell, Injector_4_W
+Adding Mesh: InternalWell, Producer_1_O
+Adding Mesh: InternalWell, Producer_2_O
+Adding Mesh: InternalWell, Producer_3_O
+Adding Solver of type CompositionalMultiphaseReservoir, named coupledFlowAndWells
+Adding Solver of type CompositionalMultiphaseFVM, named compositionalMultiphaseFlow
+Adding Solver of type CompositionalMultiphaseWell, named compositionalMultiphaseWell
+Adding Event: PeriodicEvent, MySilo
+Adding Event: PeriodicEvent, MyVTK
+Adding Event: PeriodicEvent, timeHistoryOutput1
+Adding Event: PeriodicEvent, timeHistoryOutput2
+Adding Event: PeriodicEvent, timeHistoryOutput3
+Adding Event: PeriodicEvent, timeHistoryOutput4
+Adding Event: PeriodicEvent, timeHistoryOutput5
+Adding Event: PeriodicEvent, timeHistoryOutput6
+Adding Event: PeriodicEvent, timeHistoryOutput7
+Adding Event: PeriodicEvent, timeHistoryOutput8
+Adding Event: PeriodicEvent, timeHistoryOutput9
+Adding Event: PeriodicEvent, timeHistoryOutput10
+Adding Event: PeriodicEvent, timeHistoryOutput11
+Adding Event: PeriodicEvent, timeHistoryOutput12
+Adding Event: PeriodicEvent, timeHistoryOutput13
+Adding Event: PeriodicEvent, timeHistoryOutput14
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, timeHistoryCollection1
+Adding Event: PeriodicEvent, timeHistoryCollection2
+Adding Event: PeriodicEvent, timeHistoryCollection3
+Adding Event: PeriodicEvent, timeHistoryCollection4
+Adding Event: PeriodicEvent, timeHistoryCollection5
+Adding Event: PeriodicEvent, timeHistoryCollection6
+Adding Event: PeriodicEvent, timeHistoryCollection7
+Adding Event: PeriodicEvent, timeHistoryCollection8
+Adding Event: PeriodicEvent, timeHistoryCollection9
+Adding Event: PeriodicEvent, timeHistoryCollection10
+Adding Event: PeriodicEvent, timeHistoryCollection11
+Adding Event: PeriodicEvent, timeHistoryCollection12
+Adding Event: PeriodicEvent, timeHistoryCollection13
+Adding Event: PeriodicEvent, timeHistoryCollection14
+Adding Event: PeriodicEvent, restarts
+   TableFunction: waterRelativePermeabilityTable
+   TableFunction: oilRelativePermeabilityTable
+   TableFunction: permxFunc
+   TableFunction: permyFunc
+   TableFunction: permzFunc
+   TableFunction: pressureFunc
+   TableFunction: poroFunc
+Adding Output: Silo, SiloOutput
+Adding Output: VTK, vtkOutput
+Adding Output: TimeHistory, timeHistoryOutput1
+Adding Output: TimeHistory, timeHistoryOutput2
+Adding Output: TimeHistory, timeHistoryOutput3
+Adding Output: TimeHistory, timeHistoryOutput4
+Adding Output: TimeHistory, timeHistoryOutput5
+Adding Output: TimeHistory, timeHistoryOutput6
+Adding Output: TimeHistory, timeHistoryOutput7
+Adding Output: TimeHistory, timeHistoryOutput8
+Adding Output: TimeHistory, timeHistoryOutput9
+Adding Output: TimeHistory, timeHistoryOutput10
+Adding Output: TimeHistory, timeHistoryOutput11
+Adding Output: TimeHistory, timeHistoryOutput12
+Adding Output: TimeHistory, timeHistoryOutput13
+Adding Output: TimeHistory, timeHistoryOutput14
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named reservoir from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion1 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion2 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion3 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion4 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion5 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion6 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion7 from ObjectManager::Catalog.
+   TableFunction: fluid_PVDO_Bo
+   TableFunction: fluid_PVDO_visco
+   TableFunction: wellControls1_ConstantBHP_table
+   TableFunction: wellControls1_ConstantTotalRate_table
+   TableFunction: wellControls1_ConstantPhaseRate_table
+   TableFunction: WellControls_OpenStatus_table
+   TableFunction: wellControls2_ConstantBHP_table
+   TableFunction: wellControls2_ConstantTotalRate_table
+   TableFunction: wellControls2_ConstantPhaseRate_table
+VTKMesh 'mesh': reading mesh from /home/arekh/GeosxInput/Grid.vtk
+Generating global Ids from VTK mesh
+VTKMesh 'mesh': generating GEOSX mesh data structure
+Number of nodes: 596181
+  Number of elems: 572000
+             C3D8: 572000
+Load balancing:    min    avg    max
+(element/rank): 572000 572000 572000
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, reservoir, hexahedra
+mesh/Level0/reservoir/hexahedra/fluid allocated 1 quadrature points
+mesh/Level0/reservoir/hexahedra/rock allocated 1 quadrature points
+mesh/Level0/reservoir/hexahedra/relperm allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion1, wellRegion1UniqueSubRegion
+mesh/Level0/wellRegion1/wellRegion1UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion1/wellRegion1UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion2, wellRegion2UniqueSubRegion
+mesh/Level0/wellRegion2/wellRegion2UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion2/wellRegion2UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion3, wellRegion3UniqueSubRegion
+mesh/Level0/wellRegion3/wellRegion3UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion3/wellRegion3UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion4, wellRegion4UniqueSubRegion
+mesh/Level0/wellRegion4/wellRegion4UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion4/wellRegion4UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion5, wellRegion5UniqueSubRegion
+mesh/Level0/wellRegion5/wellRegion5UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion5/wellRegion5UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion6, wellRegion6UniqueSubRegion
+mesh/Level0/wellRegion6/wellRegion6UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion6/wellRegion6UniqueSubRegion/relpermWell allocated 1 quadrature points
+regionQuadrature: meshBodyName, meshLevelName, regionName, subRegionName = mesh, Level0, wellRegion7, wellRegion7UniqueSubRegion
+mesh/Level0/wellRegion7/wellRegion7UniqueSubRegion/fluid allocated 1 quadrature points
+mesh/Level0/wellRegion7/wellRegion7UniqueSubRegion/relpermWell allocated 1 quadrature points
+Received signal 11: Segmentation fault
+
+** StackTrace of 12 frames **
+Frame 0: /lib/x86_64-linux-gnu/libc.so.6
+Frame 1: geos::CompositionalMultiphaseWell::validateInjectionStreams(geos::WellElementSubRegion const&) const
+Frame 2: /home/arekh/geos-dev/install-DTU-release/lib/libgeosx_core.so
+Frame 3: geos::CompositionalMultiphaseWell::initializePostSubGroups()
+Frame 4: geos::dataRepository::Group::initialize()
+Frame 5: geos::dataRepository::Group::initialize()
+Frame 6: geos::dataRepository::Group::initialize()
+Frame 7: geos::ProblemManager::problemSetup()
+Frame 8: geos::GeosxState::initializeDataRepository()
+Frame 9: main
+Frame 10: /lib/x86_64-linux-gnu/libc.so.6
+Frame 11: __libc_start_main
+Frame 12: _start
+=====
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

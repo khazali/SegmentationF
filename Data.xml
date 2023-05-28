@@ -1,0 +1,3282 @@
+<?xml version="1.0" ?>
+
+<Problem>
+	<Mesh>
+		<VTKMesh
+			name="mesh"
+			file="Grid.vtk"/>
+				
+
+			<InternalWell
+				name="Injector_1_W"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls2"
+				meshName="mesh"
+				polylineNodeCoords="{ { 4.9999999998, 1100.0, -0.0 },
+									{ 4.9999999998, 1100.0, -1900.0 },
+									{ 5.0, 1099.8207714, -1908.191845 },
+									{ 5.0000000029, 1099.2834268, -1916.368095 },
+									{ 5.0000000158, 1098.388989, -1924.513189 },
+									{ 5.0000000504, 1097.1391607, -1932.61162 },
+									{ 5.0000001228, 1095.5363209, -1940.647973 },
+									{ 5.0000002541, 1093.5835208, -1948.60695 },
+									{ 5.000000469, 1091.2844776, -1956.473401 },
+									{ 5.0000007966, 1088.6435678, -1964.232352 },
+									{ 5.0000012693, 1085.6658183, -1971.869033 },
+									{ 5.0000019232, 1082.3568976, -1979.368907 },
+									{ 5.0000027969, 1078.7231043, -1986.717698 },
+									{ 5.0000039325, 1074.7713556, -1993.901416 },
+									{ 5.0000053736, 1070.5091739, -2000.906389 },
+									{ 5.0000071658, 1065.9446724, -2007.71928 },
+									{ 5.0000093561, 1061.08654, -2014.327121 },
+									{ 5.0000119925, 1055.9440244, -2020.717334 },
+									{ 5.0000151228, 1050.5269146, -2026.877755 },
+									{ 5.000018796, 1044.8455225, -2032.796657 },
+									{ 5.0000230586, 1038.9106628, -2038.462772 },
+									{ 5.0000279575, 1032.733633, -2043.865317 },
+									{ 5.0000335374, 1026.3261913, -2048.994005 },
+									{ 5.000039841, 1019.7005347, -2053.839074 },
+									{ 5.0000469082, 1012.8692755, -2058.391303 },
+									{ 5.0000547757, 1005.8454174, -2062.642024 },
+									{ 5.0000634774, 998.6423307, -2066.583147 },
+									{ 5.0000730425, 991.27372688, -2070.20717 },
+									{ 5.0000834958, 983.7536325, -2073.507193 },
+									{ 5.0000948581, 976.09636248, -2076.476936 },
+									{ 5.0001071444, 968.31649289, -2079.110745 },
+									{ 5.0001203644, 960.42883313, -2081.403606 },
+									{ 5.0001345224, 952.44839783, -2083.351156 },
+									{ 5.0001496166, 944.39037819, -2084.949686 },
+									{ 5.0001656392, 936.27011311, -2086.196154 },
+									{ 5.0001825758, 928.10305998, -2087.088186 },
+									{ 5.0002004064, 919.90476524, -2087.624086 },
+									{ 5.0002191038, 911.69083482, -2087.802833 },
+									{ 5.0029817125, 405.32931209, -2087.802833 },
+									{ 5.0074187396, 4.2508782771, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_1_W_perf1"
+					distanceFromHead="2153.2619437189915"/>
+				<Perforation
+					name="Injector_1_W_perf2"
+					distanceFromHead="2161.593955439168"/>
+				<Perforation
+					name="Injector_1_W_perf3"
+					distanceFromHead="2167.9043923614454"/>
+				<Perforation
+					name="Injector_1_W_perf4"
+					distanceFromHead="2172.9344152718104"/>
+				<Perforation
+					name="Injector_1_W_perf5"
+					distanceFromHead="2181.727766789906"/>
+				<Perforation
+					name="Injector_1_W_perf6"
+					distanceFromHead="2191.711149569377"/>
+				<Perforation
+					name="Injector_1_W_perf7"
+					distanceFromHead="2201.6908348200996"/>
+				<Perforation
+					name="Injector_1_W_perf8"
+					distanceFromHead="2211.6908348202487"/>
+				<Perforation
+					name="Injector_1_W_perf9"
+					distanceFromHead="2221.690834820397"/>
+				<Perforation
+					name="Injector_1_W_perf10"
+					distanceFromHead="2231.690834820546"/>
+				<Perforation
+					name="Injector_1_W_perf11"
+					distanceFromHead="2241.690834820695"/>
+				<Perforation
+					name="Injector_1_W_perf12"
+					distanceFromHead="2251.6908348208435"/>
+				<Perforation
+					name="Injector_1_W_perf13"
+					distanceFromHead="2261.6908348209927"/>
+				<Perforation
+					name="Injector_1_W_perf14"
+					distanceFromHead="2271.6908348211414"/>
+				<Perforation
+					name="Injector_1_W_perf15"
+					distanceFromHead="2281.69083482129"/>
+				<Perforation
+					name="Injector_1_W_perf16"
+					distanceFromHead="2291.6908348214392"/>
+				<Perforation
+					name="Injector_1_W_perf17"
+					distanceFromHead="2301.6908348215875"/>
+				<Perforation
+					name="Injector_1_W_perf18"
+					distanceFromHead="2311.6908348217366"/>
+				<Perforation
+					name="Injector_1_W_perf19"
+					distanceFromHead="2321.690834821886"/>
+				<Perforation
+					name="Injector_1_W_perf20"
+					distanceFromHead="2331.690834822034"/>
+				<Perforation
+					name="Injector_1_W_perf21"
+					distanceFromHead="2341.690834822183"/>
+				<Perforation
+					name="Injector_1_W_perf22"
+					distanceFromHead="2351.6908348223324"/>
+				<Perforation
+					name="Injector_1_W_perf23"
+					distanceFromHead="2361.6908348224806"/>
+				<Perforation
+					name="Injector_1_W_perf24"
+					distanceFromHead="2371.6908348226298"/>
+				<Perforation
+					name="Injector_1_W_perf25"
+					distanceFromHead="2381.6908348227785"/>
+				<Perforation
+					name="Injector_1_W_perf26"
+					distanceFromHead="2391.690834822927"/>
+				<Perforation
+					name="Injector_1_W_perf27"
+					distanceFromHead="2401.6908348230763"/>
+				<Perforation
+					name="Injector_1_W_perf28"
+					distanceFromHead="2411.6908348232246"/>
+				<Perforation
+					name="Injector_1_W_perf29"
+					distanceFromHead="2421.6908348233737"/>
+				<Perforation
+					name="Injector_1_W_perf30"
+					distanceFromHead="2431.690834823523"/>
+				<Perforation
+					name="Injector_1_W_perf31"
+					distanceFromHead="2441.690834823671"/>
+				<Perforation
+					name="Injector_1_W_perf32"
+					distanceFromHead="2451.6908348238203"/>
+				<Perforation
+					name="Injector_1_W_perf33"
+					distanceFromHead="2461.6908348239695"/>
+				<Perforation
+					name="Injector_1_W_perf34"
+					distanceFromHead="2471.6908348241177"/>
+				<Perforation
+					name="Injector_1_W_perf35"
+					distanceFromHead="2481.690834824267"/>
+				<Perforation
+					name="Injector_1_W_perf36"
+					distanceFromHead="2491.6908348244156"/>
+				<Perforation
+					name="Injector_1_W_perf37"
+					distanceFromHead="2501.6908348245643"/>
+				<Perforation
+					name="Injector_1_W_perf38"
+					distanceFromHead="2511.6908348247134"/>
+				<Perforation
+					name="Injector_1_W_perf39"
+					distanceFromHead="2521.6908348248617"/>
+				<Perforation
+					name="Injector_1_W_perf40"
+					distanceFromHead="2531.690834825011"/>
+				<Perforation
+					name="Injector_1_W_perf41"
+					distanceFromHead="2541.69083482516"/>
+				<Perforation
+					name="Injector_1_W_perf42"
+					distanceFromHead="2551.6908348253082"/>
+				<Perforation
+					name="Injector_1_W_perf43"
+					distanceFromHead="2561.6908348254574"/>
+				<Perforation
+					name="Injector_1_W_perf44"
+					distanceFromHead="2571.6908348256065"/>
+				<Perforation
+					name="Injector_1_W_perf45"
+					distanceFromHead="2581.690834825755"/>
+				<Perforation
+					name="Injector_1_W_perf46"
+					distanceFromHead="2591.690834825904"/>
+				<Perforation
+					name="Injector_1_W_perf47"
+					distanceFromHead="2601.690834826053"/>
+				<Perforation
+					name="Injector_1_W_perf48"
+					distanceFromHead="2611.6908348262014"/>
+				<Perforation
+					name="Injector_1_W_perf49"
+					distanceFromHead="2621.6908348263505"/>
+				<Perforation
+					name="Injector_1_W_perf50"
+					distanceFromHead="2631.690834826499"/>
+				<Perforation
+					name="Injector_1_W_perf51"
+					distanceFromHead="2641.690834826648"/>
+				<Perforation
+					name="Injector_1_W_perf52"
+					distanceFromHead="2651.690834826797"/>
+				<Perforation
+					name="Injector_1_W_perf53"
+					distanceFromHead="2661.6908348269453"/>
+				<Perforation
+					name="Injector_1_W_perf54"
+					distanceFromHead="2671.6908348270945"/>
+				<Perforation
+					name="Injector_1_W_perf55"
+					distanceFromHead="2681.6908348272436"/>
+				<Perforation
+					name="Injector_1_W_perf56"
+					distanceFromHead="2691.690834827392"/>
+				<Perforation
+					name="Injector_1_W_perf57"
+					distanceFromHead="2701.0100734588964"/>
+				<Perforation
+					name="Injector_1_W_perf58"
+					distanceFromHead="2710.329312090632"/>
+				<Perforation
+					name="Injector_1_W_perf59"
+					distanceFromHead="2720.329312091244"/>
+				<Perforation
+					name="Injector_1_W_perf60"
+					distanceFromHead="2730.329312091856"/>
+				<Perforation
+					name="Injector_1_W_perf61"
+					distanceFromHead="2740.3293120924677"/>
+				<Perforation
+					name="Injector_1_W_perf62"
+					distanceFromHead="2750.32931209308"/>
+				<Perforation
+					name="Injector_1_W_perf63"
+					distanceFromHead="2760.3293120936914"/>
+				<Perforation
+					name="Injector_1_W_perf64"
+					distanceFromHead="2770.3293120943035"/>
+				<Perforation
+					name="Injector_1_W_perf65"
+					distanceFromHead="2780.3293120949156"/>
+				<Perforation
+					name="Injector_1_W_perf66"
+					distanceFromHead="2790.3293120955277"/>
+				<Perforation
+					name="Injector_1_W_perf67"
+					distanceFromHead="2800.3293120961393"/>
+				<Perforation
+					name="Injector_1_W_perf68"
+					distanceFromHead="2810.329312096751"/>
+				<Perforation
+					name="Injector_1_W_perf69"
+					distanceFromHead="2820.329312097363"/>
+				<Perforation
+					name="Injector_1_W_perf70"
+					distanceFromHead="2830.329312097975"/>
+				<Perforation
+					name="Injector_1_W_perf71"
+					distanceFromHead="2840.3293120985873"/>
+				<Perforation
+					name="Injector_1_W_perf72"
+					distanceFromHead="2850.329312099199"/>
+				<Perforation
+					name="Injector_1_W_perf73"
+					distanceFromHead="2860.329312099811"/>
+				<Perforation
+					name="Injector_1_W_perf74"
+					distanceFromHead="2870.3293121004226"/>
+				<Perforation
+					name="Injector_1_W_perf75"
+					distanceFromHead="2880.3293121010347"/>
+				<Perforation
+					name="Injector_1_W_perf76"
+					distanceFromHead="2890.329312101647"/>
+				<Perforation
+					name="Injector_1_W_perf77"
+					distanceFromHead="2920.329312103482"/>
+				<Perforation
+					name="Injector_1_W_perf78"
+					distanceFromHead="2930.3293121040942"/>
+				<Perforation
+					name="Injector_1_W_perf79"
+					distanceFromHead="2940.3293121047063"/>
+				<Perforation
+					name="Injector_1_W_perf80"
+					distanceFromHead="2950.3293121053184"/>
+				<Perforation
+					name="Injector_1_W_perf81"
+					distanceFromHead="2960.32931210593"/>
+				<Perforation
+					name="Injector_1_W_perf82"
+					distanceFromHead="2970.329312106542"/>
+				<Perforation
+					name="Injector_1_W_perf83"
+					distanceFromHead="2980.329312107154"/>
+				<Perforation
+					name="Injector_1_W_perf84"
+					distanceFromHead="2990.329312107766"/>
+				<Perforation
+					name="Injector_1_W_perf85"
+					distanceFromHead="2996.3846560509764"/>
+				<Perforation
+					name="Injector_1_W_perf86"
+					distanceFromHead="3000.329312108378"/>
+				<Perforation
+					name="Injector_1_W_perf87"
+					distanceFromHead="3006.3846560515885"/>
+				<Perforation
+					name="Injector_1_W_perf88"
+					distanceFromHead="3010.3293121089896"/>
+				<Perforation
+					name="Injector_1_W_perf89"
+					distanceFromHead="3020.3293121096017"/>
+				<Perforation
+					name="Injector_1_W_perf90"
+					distanceFromHead="3030.3293121102133"/>
+				<Perforation
+					name="Injector_1_W_perf91"
+					distanceFromHead="3040.3293121108254"/>
+				<Perforation
+					name="Injector_1_W_perf92"
+					distanceFromHead="3050.3293121114375"/>
+				<Perforation
+					name="Injector_1_W_perf93"
+					distanceFromHead="3060.329312112049"/>
+				<Perforation
+					name="Injector_1_W_perf94"
+					distanceFromHead="3070.3293121126612"/>
+				<Perforation
+					name="Injector_1_W_perf95"
+					distanceFromHead="3080.329312113273"/>
+				<Perforation
+					name="Injector_1_W_perf96"
+					distanceFromHead="3090.329312113885"/>
+				<Perforation
+					name="Injector_1_W_perf97"
+					distanceFromHead="3096.3846560570955"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_2_W"
+				wellRegionName="wellRegion2"
+				wellControlsName="wellControls2"
+				meshName="mesh"
+				polylineNodeCoords="{ { 385.0, 1100.0, -0.0 },
+									{ 385.0, 1100.0, -1900.0 },
+									{ 385.0, 1099.8207722, -1908.191845 },
+									{ 385.0, 1099.2834301, -1916.368095 },
+									{ 385.00000002, 1098.3889965, -1924.513189 },
+									{ 385.00000005, 1097.1391741, -1932.61162 },
+									{ 385.00000012, 1095.5363418, -1940.647973 },
+									{ 385.00000025, 1093.5835509, -1948.60695 },
+									{ 385.00000047, 1091.2845185, -1956.473401 },
+									{ 385.0000008, 1088.6436211, -1964.232352 },
+									{ 385.00000127, 1085.6658856, -1971.869033 },
+									{ 385.00000192, 1082.3569804, -1979.368907 },
+									{ 385.00000279, 1078.7232042, -1986.717698 },
+									{ 385.00000393, 1074.7714741, -1993.901416 },
+									{ 385.00000537, 1070.5093123, -2000.906389 },
+									{ 385.00000716, 1065.9448323, -2007.71928 },
+									{ 385.00000935, 1061.0867227, -2014.327121 },
+									{ 385.00001198, 1055.9442312, -2020.717334 },
+									{ 385.00001511, 1050.5271469, -2026.877755 },
+									{ 385.00001878, 1044.8457814, -2032.796657 },
+									{ 385.00002304, 1038.9109496, -2038.462772 },
+									{ 385.00002794, 1032.7339487, -2043.865317 },
+									{ 385.00003351, 1026.3265371, -2048.994005 },
+									{ 385.00003981, 1019.7009117, -2053.839074 },
+									{ 385.00004687, 1012.8696845, -2058.391303 },
+									{ 385.00005473, 1005.8458594, -2062.642024 },
+									{ 385.00006343, 998.64280649, -2066.583147 },
+									{ 385.00007299, 991.27423725, -2070.20717 },
+									{ 385.00008343, 983.75417817, -2073.507193 },
+									{ 385.00009479, 976.0969441, -2076.476936 },
+									{ 385.00010706, 968.31711103, -2079.110745 },
+									{ 385.00012027, 960.4294883, -2081.403606 },
+									{ 385.00013442, 952.44909046, -2083.351156 },
+									{ 385.0001495, 944.39110864, -2084.949686 },
+									{ 385.00016551, 936.27088168, -2086.196154 },
+									{ 385.00018244, 928.10386688, -2087.088186 },
+									{ 385.00020025, 919.90561063, -2087.624086 },
+									{ 385.00021894, 911.69171877, -2087.802833 },
+									{ 385.00297943, 405.33257297, -2087.802833 },
+									{ 385.00741306, 4.2560218775, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_2_W_perf1"
+					distanceFromHead="2153.262297004472"/>
+				<Perforation
+					name="Injector_2_W_perf2"
+					distanceFromHead="2161.5946784674543"/>
+				<Perforation
+					name="Injector_2_W_perf3"
+					distanceFromHead="2167.9047462296176"/>
+				<Perforation
+					name="Injector_2_W_perf4"
+					distanceFromHead="2172.9347861421006"/>
+				<Perforation
+					name="Injector_2_W_perf5"
+					distanceFromHead="2181.728557926969"/>
+				<Perforation
+					name="Injector_2_W_perf6"
+					distanceFromHead="2191.7119959365164"/>
+				<Perforation
+					name="Injector_2_W_perf7"
+					distanceFromHead="2201.691718770099"/>
+				<Perforation
+					name="Injector_2_W_perf8"
+					distanceFromHead="2211.6917187702484"/>
+				<Perforation
+					name="Injector_2_W_perf9"
+					distanceFromHead="2221.6917187703966"/>
+				<Perforation
+					name="Injector_2_W_perf10"
+					distanceFromHead="2231.691718770545"/>
+				<Perforation
+					name="Injector_2_W_perf11"
+					distanceFromHead="2241.691718770694"/>
+				<Perforation
+					name="Injector_2_W_perf12"
+					distanceFromHead="2251.6917187708423"/>
+				<Perforation
+					name="Injector_2_W_perf13"
+					distanceFromHead="2261.691718770991"/>
+				<Perforation
+					name="Injector_2_W_perf14"
+					distanceFromHead="2271.6917187711397"/>
+				<Perforation
+					name="Injector_2_W_perf15"
+					distanceFromHead="2281.691718771288"/>
+				<Perforation
+					name="Injector_2_W_perf16"
+					distanceFromHead="2291.691718771437"/>
+				<Perforation
+					name="Injector_2_W_perf17"
+					distanceFromHead="2301.6917187715853"/>
+				<Perforation
+					name="Injector_2_W_perf18"
+					distanceFromHead="2311.691718771734"/>
+				<Perforation
+					name="Injector_2_W_perf19"
+					distanceFromHead="2321.6917187718827"/>
+				<Perforation
+					name="Injector_2_W_perf20"
+					distanceFromHead="2331.691718772031"/>
+				<Perforation
+					name="Injector_2_W_perf21"
+					distanceFromHead="2341.69171877218"/>
+				<Perforation
+					name="Injector_2_W_perf22"
+					distanceFromHead="2351.6917187723284"/>
+				<Perforation
+					name="Injector_2_W_perf23"
+					distanceFromHead="2361.691718772477"/>
+				<Perforation
+					name="Injector_2_W_perf24"
+					distanceFromHead="2371.691718772626"/>
+				<Perforation
+					name="Injector_2_W_perf25"
+					distanceFromHead="2381.691718772774"/>
+				<Perforation
+					name="Injector_2_W_perf26"
+					distanceFromHead="2391.691718772923"/>
+				<Perforation
+					name="Injector_2_W_perf27"
+					distanceFromHead="2401.6917187730714"/>
+				<Perforation
+					name="Injector_2_W_perf28"
+					distanceFromHead="2411.6917187732197"/>
+				<Perforation
+					name="Injector_2_W_perf29"
+					distanceFromHead="2421.691718773369"/>
+				<Perforation
+					name="Injector_2_W_perf30"
+					distanceFromHead="2431.691718773517"/>
+				<Perforation
+					name="Injector_2_W_perf31"
+					distanceFromHead="2441.691718773666"/>
+				<Perforation
+					name="Injector_2_W_perf32"
+					distanceFromHead="2451.6917187738145"/>
+				<Perforation
+					name="Injector_2_W_perf33"
+					distanceFromHead="2461.6917187739627"/>
+				<Perforation
+					name="Injector_2_W_perf34"
+					distanceFromHead="2471.691718774112"/>
+				<Perforation
+					name="Injector_2_W_perf35"
+					distanceFromHead="2481.69171877426"/>
+				<Perforation
+					name="Injector_2_W_perf36"
+					distanceFromHead="2491.691718774409"/>
+				<Perforation
+					name="Injector_2_W_perf37"
+					distanceFromHead="2501.6917187745576"/>
+				<Perforation
+					name="Injector_2_W_perf38"
+					distanceFromHead="2511.691718774706"/>
+				<Perforation
+					name="Injector_2_W_perf39"
+					distanceFromHead="2521.691718774855"/>
+				<Perforation
+					name="Injector_2_W_perf40"
+					distanceFromHead="2531.691718775003"/>
+				<Perforation
+					name="Injector_2_W_perf41"
+					distanceFromHead="2541.691718775152"/>
+				<Perforation
+					name="Injector_2_W_perf42"
+					distanceFromHead="2551.6917187753006"/>
+				<Perforation
+					name="Injector_2_W_perf43"
+					distanceFromHead="2561.691718775449"/>
+				<Perforation
+					name="Injector_2_W_perf44"
+					distanceFromHead="2571.691718775598"/>
+				<Perforation
+					name="Injector_2_W_perf45"
+					distanceFromHead="2581.6917187757463"/>
+				<Perforation
+					name="Injector_2_W_perf46"
+					distanceFromHead="2591.6917187758945"/>
+				<Perforation
+					name="Injector_2_W_perf47"
+					distanceFromHead="2601.6917187760437"/>
+				<Perforation
+					name="Injector_2_W_perf48"
+					distanceFromHead="2611.691718776192"/>
+				<Perforation
+					name="Injector_2_W_perf49"
+					distanceFromHead="2621.6917187763406"/>
+				<Perforation
+					name="Injector_2_W_perf50"
+					distanceFromHead="2631.6917187764893"/>
+				<Perforation
+					name="Injector_2_W_perf51"
+					distanceFromHead="2641.6917187766376"/>
+				<Perforation
+					name="Injector_2_W_perf52"
+					distanceFromHead="2651.6917187767867"/>
+				<Perforation
+					name="Injector_2_W_perf53"
+					distanceFromHead="2661.691718776935"/>
+				<Perforation
+					name="Injector_2_W_perf54"
+					distanceFromHead="2671.6917187770837"/>
+				<Perforation
+					name="Injector_2_W_perf55"
+					distanceFromHead="2681.6917187772324"/>
+				<Perforation
+					name="Injector_2_W_perf56"
+					distanceFromHead="2691.6917187773806"/>
+				<Perforation
+					name="Injector_2_W_perf57"
+					distanceFromHead="2701.0121458738904"/>
+				<Perforation
+					name="Injector_2_W_perf58"
+					distanceFromHead="2710.332572970631"/>
+				<Perforation
+					name="Injector_2_W_perf59"
+					distanceFromHead="2720.3325729712424"/>
+				<Perforation
+					name="Injector_2_W_perf60"
+					distanceFromHead="2730.3325729718536"/>
+				<Perforation
+					name="Injector_2_W_perf61"
+					distanceFromHead="2740.3325729724643"/>
+				<Perforation
+					name="Injector_2_W_perf62"
+					distanceFromHead="2750.332572973075"/>
+				<Perforation
+					name="Injector_2_W_perf63"
+					distanceFromHead="2760.332572973686"/>
+				<Perforation
+					name="Injector_2_W_perf64"
+					distanceFromHead="2770.3325729742974"/>
+				<Perforation
+					name="Injector_2_W_perf65"
+					distanceFromHead="2780.3325729749085"/>
+				<Perforation
+					name="Injector_2_W_perf66"
+					distanceFromHead="2790.3325729755193"/>
+				<Perforation
+					name="Injector_2_W_perf67"
+					distanceFromHead="2800.33257297613"/>
+				<Perforation
+					name="Injector_2_W_perf68"
+					distanceFromHead="2810.332572976741"/>
+				<Perforation
+					name="Injector_2_W_perf69"
+					distanceFromHead="2820.3325729773524"/>
+				<Perforation
+					name="Injector_2_W_perf70"
+					distanceFromHead="2830.332572977963"/>
+				<Perforation
+					name="Injector_2_W_perf71"
+					distanceFromHead="2840.3325729785743"/>
+				<Perforation
+					name="Injector_2_W_perf72"
+					distanceFromHead="2850.332572979185"/>
+				<Perforation
+					name="Injector_2_W_perf73"
+					distanceFromHead="2860.332572979796"/>
+				<Perforation
+					name="Injector_2_W_perf74"
+					distanceFromHead="2870.3325729804073"/>
+				<Perforation
+					name="Injector_2_W_perf75"
+					distanceFromHead="2880.332572981018"/>
+				<Perforation
+					name="Injector_2_W_perf76"
+					distanceFromHead="2890.3325729816293"/>
+				<Perforation
+					name="Injector_2_W_perf77"
+					distanceFromHead="2900.33257298224"/>
+				<Perforation
+					name="Injector_2_W_perf78"
+					distanceFromHead="2910.332572982851"/>
+				<Perforation
+					name="Injector_2_W_perf79"
+					distanceFromHead="2920.3325729834623"/>
+				<Perforation
+					name="Injector_2_W_perf80"
+					distanceFromHead="2950.332572985295"/>
+				<Perforation
+					name="Injector_2_W_perf81"
+					distanceFromHead="2960.332572985906"/>
+				<Perforation
+					name="Injector_2_W_perf82"
+					distanceFromHead="2970.3325729865173"/>
+				<Perforation
+					name="Injector_2_W_perf83"
+					distanceFromHead="2980.332572987128"/>
+				<Perforation
+					name="Injector_2_W_perf84"
+					distanceFromHead="2990.332572987739"/>
+				<Perforation
+					name="Injector_2_W_perf85"
+					distanceFromHead="3000.33257298835"/>
+				<Perforation
+					name="Injector_2_W_perf86"
+					distanceFromHead="3010.332572988961"/>
+				<Perforation
+					name="Injector_2_W_perf87"
+					distanceFromHead="3011.3862864918838"/>
+				<Perforation
+					name="Injector_2_W_perf88"
+					distanceFromHead="3020.3325729895723"/>
+				<Perforation
+					name="Injector_2_W_perf89"
+					distanceFromHead="3021.386286492495"/>
+				<Perforation
+					name="Injector_2_W_perf90"
+					distanceFromHead="3030.332572990183"/>
+				<Perforation
+					name="Injector_2_W_perf91"
+					distanceFromHead="3040.332572990794"/>
+				<Perforation
+					name="Injector_2_W_perf92"
+					distanceFromHead="3050.332572991405"/>
+				<Perforation
+					name="Injector_2_W_perf93"
+					distanceFromHead="3060.332572992016"/>
+				<Perforation
+					name="Injector_2_W_perf94"
+					distanceFromHead="3070.332572992627"/>
+				<Perforation
+					name="Injector_2_W_perf95"
+					distanceFromHead="3080.332572993238"/>
+				<Perforation
+					name="Injector_2_W_perf96"
+					distanceFromHead="3090.3325729938488"/>
+				<Perforation
+					name="Injector_2_W_perf97"
+					distanceFromHead="3096.386286497077"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_3_W"
+				wellRegionName="wellRegion3"
+				wellControlsName="wellControls2"
+				meshName="mesh"
+				polylineNodeCoords="{ { 765.0, 1100.0, -0.0 },
+									{ 765.0, 1100.0, -1900.0 },
+									{ 765.0, 1099.8207731, -1908.191845 },
+									{ 765.0, 1099.2834335, -1916.368095 },
+									{ 765.00000002, 1098.3890041, -1924.513189 },
+									{ 765.00000005, 1097.1391875, -1932.61162 },
+									{ 765.00000012, 1095.5363628, -1940.647973 },
+									{ 765.00000025, 1093.583581, -1948.60695 },
+									{ 765.00000047, 1091.2845594, -1956.473401 },
+									{ 765.0000008, 1088.6436743, -1964.232352 },
+									{ 765.00000127, 1085.6659528, -1971.869033 },
+									{ 765.00000192, 1082.3570632, -1979.368907 },
+									{ 765.00000279, 1078.723304, -1986.717698 },
+									{ 765.00000393, 1074.7715924, -1993.901416 },
+									{ 765.00000537, 1070.5094507, -2000.906389 },
+									{ 765.00000715, 1065.944992, -2007.71928 },
+									{ 765.00000934, 1061.0869052, -2014.327121 },
+									{ 765.00001197, 1055.9444378, -2020.717334 },
+									{ 765.0000151, 1050.5273789, -2026.877755 },
+									{ 765.00001877, 1044.8460401, -2032.796657 },
+									{ 765.00002302, 1038.9112361, -2038.462772 },
+									{ 765.00002791, 1032.7342643, -2043.865317 },
+									{ 765.00003349, 1026.3268827, -2048.994005 },
+									{ 765.00003978, 1019.7012883, -2053.839074 },
+									{ 765.00004684, 1012.8700932, -2058.391303 },
+									{ 765.00005469, 1005.846301, -2062.642024 },
+									{ 765.00006338, 998.64328191, -2066.583147 },
+									{ 765.00007293, 991.27474724, -2070.20717 },
+									{ 765.00008337, 983.75472343, -2073.507193 },
+									{ 765.00009471, 976.09752528, -2076.476936 },
+									{ 765.00010698, 968.3177287, -2079.110745 },
+									{ 765.00012018, 960.43014297, -2081.403606 },
+									{ 765.00013432, 952.44978256, -2083.351156 },
+									{ 765.00014939, 944.39183854, -2084.949686 },
+									{ 765.00016539, 936.27164967, -2086.196154 },
+									{ 765.0001823, 928.10467318, -2087.088186 },
+									{ 765.0002001, 919.90645538, -2087.624086 },
+									{ 765.00021877, 911.69260204, -2087.802833 },
+									{ 765.00297714, 405.33583136, -2087.802833 },
+									{ 765.00740737, 4.2611615573, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_3_W_perf1"
+					distanceFromHead="2153.2626500198003"/>
+				<Perforation
+					name="Injector_3_W_perf2"
+					distanceFromHead="2161.5954009472616"/>
+				<Perforation
+					name="Injector_3_W_perf3"
+					distanceFromHead="2167.905099831958"/>
+				<Perforation
+					name="Injector_3_W_perf4"
+					distanceFromHead="2172.935156733115"/>
+				<Perforation
+					name="Injector_3_W_perf5"
+					distanceFromHead="2181.7293484715537"/>
+				<Perforation
+					name="Injector_3_W_perf6"
+					distanceFromHead="2191.7128416629484"/>
+				<Perforation
+					name="Injector_3_W_perf7"
+					distanceFromHead="2201.6926020400992"/>
+				<Perforation
+					name="Injector_3_W_perf8"
+					distanceFromHead="2211.692602040248"/>
+				<Perforation
+					name="Injector_3_W_perf9"
+					distanceFromHead="2221.692602040396"/>
+				<Perforation
+					name="Injector_3_W_perf10"
+					distanceFromHead="2231.6926020405444"/>
+				<Perforation
+					name="Injector_3_W_perf11"
+					distanceFromHead="2241.6926020406927"/>
+				<Perforation
+					name="Injector_3_W_perf12"
+					distanceFromHead="2251.692602040841"/>
+				<Perforation
+					name="Injector_3_W_perf13"
+					distanceFromHead="2261.6926020409896"/>
+				<Perforation
+					name="Injector_3_W_perf14"
+					distanceFromHead="2271.692602041138"/>
+				<Perforation
+					name="Injector_3_W_perf15"
+					distanceFromHead="2281.692602041286"/>
+				<Perforation
+					name="Injector_3_W_perf16"
+					distanceFromHead="2291.692602041435"/>
+				<Perforation
+					name="Injector_3_W_perf17"
+					distanceFromHead="2301.692602041583"/>
+				<Perforation
+					name="Injector_3_W_perf18"
+					distanceFromHead="2311.6926020417313"/>
+				<Perforation
+					name="Injector_3_W_perf19"
+					distanceFromHead="2321.6926020418796"/>
+				<Perforation
+					name="Injector_3_W_perf20"
+					distanceFromHead="2331.6926020420283"/>
+				<Perforation
+					name="Injector_3_W_perf21"
+					distanceFromHead="2341.6926020421765"/>
+				<Perforation
+					name="Injector_3_W_perf22"
+					distanceFromHead="2351.692602042325"/>
+				<Perforation
+					name="Injector_3_W_perf23"
+					distanceFromHead="2361.6926020424735"/>
+				<Perforation
+					name="Injector_3_W_perf24"
+					distanceFromHead="2371.6926020426217"/>
+				<Perforation
+					name="Injector_3_W_perf25"
+					distanceFromHead="2381.69260204277"/>
+				<Perforation
+					name="Injector_3_W_perf26"
+					distanceFromHead="2391.692602042918"/>
+				<Perforation
+					name="Injector_3_W_perf27"
+					distanceFromHead="2401.692602043067"/>
+				<Perforation
+					name="Injector_3_W_perf28"
+					distanceFromHead="2411.692602043215"/>
+				<Perforation
+					name="Injector_3_W_perf29"
+					distanceFromHead="2421.6926020433634"/>
+				<Perforation
+					name="Injector_3_W_perf30"
+					distanceFromHead="2431.692602043512"/>
+				<Perforation
+					name="Injector_3_W_perf31"
+					distanceFromHead="2441.6926020436604"/>
+				<Perforation
+					name="Injector_3_W_perf32"
+					distanceFromHead="2451.6926020438086"/>
+				<Perforation
+					name="Injector_3_W_perf33"
+					distanceFromHead="2461.692602043957"/>
+				<Perforation
+					name="Injector_3_W_perf34"
+					distanceFromHead="2471.6926020441056"/>
+				<Perforation
+					name="Injector_3_W_perf35"
+					distanceFromHead="2481.692602044254"/>
+				<Perforation
+					name="Injector_3_W_perf36"
+					distanceFromHead="2491.692602044402"/>
+				<Perforation
+					name="Injector_3_W_perf37"
+					distanceFromHead="2501.6926020445508"/>
+				<Perforation
+					name="Injector_3_W_perf38"
+					distanceFromHead="2511.692602044699"/>
+				<Perforation
+					name="Injector_3_W_perf39"
+					distanceFromHead="2521.6926020448473"/>
+				<Perforation
+					name="Injector_3_W_perf40"
+					distanceFromHead="2531.6926020449955"/>
+				<Perforation
+					name="Injector_3_W_perf41"
+					distanceFromHead="2541.692602045144"/>
+				<Perforation
+					name="Injector_3_W_perf42"
+					distanceFromHead="2551.6926020452925"/>
+				<Perforation
+					name="Injector_3_W_perf43"
+					distanceFromHead="2561.6926020454407"/>
+				<Perforation
+					name="Injector_3_W_perf44"
+					distanceFromHead="2571.6926020455894"/>
+				<Perforation
+					name="Injector_3_W_perf45"
+					distanceFromHead="2581.6926020457377"/>
+				<Perforation
+					name="Injector_3_W_perf46"
+					distanceFromHead="2591.692602045886"/>
+				<Perforation
+					name="Injector_3_W_perf47"
+					distanceFromHead="2601.692602046034"/>
+				<Perforation
+					name="Injector_3_W_perf48"
+					distanceFromHead="2611.692602046183"/>
+				<Perforation
+					name="Injector_3_W_perf49"
+					distanceFromHead="2621.692602046331"/>
+				<Perforation
+					name="Injector_3_W_perf50"
+					distanceFromHead="2631.6926020464794"/>
+				<Perforation
+					name="Injector_3_W_perf51"
+					distanceFromHead="2641.692602046628"/>
+				<Perforation
+					name="Injector_3_W_perf52"
+					distanceFromHead="2651.6926020467763"/>
+				<Perforation
+					name="Injector_3_W_perf53"
+					distanceFromHead="2661.6926020469245"/>
+				<Perforation
+					name="Injector_3_W_perf54"
+					distanceFromHead="2671.692602047073"/>
+				<Perforation
+					name="Injector_3_W_perf55"
+					distanceFromHead="2681.6926020472215"/>
+				<Perforation
+					name="Injector_3_W_perf56"
+					distanceFromHead="2691.6926020473697"/>
+				<Perforation
+					name="Injector_3_W_perf57"
+					distanceFromHead="2701.014216703885"/>
+				<Perforation
+					name="Injector_3_W_perf58"
+					distanceFromHead="2710.3358313606304"/>
+				<Perforation
+					name="Injector_3_W_perf59"
+					distanceFromHead="2720.3358313612407"/>
+				<Perforation
+					name="Injector_3_W_perf60"
+					distanceFromHead="2730.335831361851"/>
+				<Perforation
+					name="Injector_3_W_perf61"
+					distanceFromHead="2740.335831362461"/>
+				<Perforation
+					name="Injector_3_W_perf62"
+					distanceFromHead="2750.3358313630706"/>
+				<Perforation
+					name="Injector_3_W_perf63"
+					distanceFromHead="2760.335831363681"/>
+				<Perforation
+					name="Injector_3_W_perf64"
+					distanceFromHead="2770.335831364291"/>
+				<Perforation
+					name="Injector_3_W_perf65"
+					distanceFromHead="2780.335831364901"/>
+				<Perforation
+					name="Injector_3_W_perf66"
+					distanceFromHead="2790.335831365511"/>
+				<Perforation
+					name="Injector_3_W_perf67"
+					distanceFromHead="2800.335831366121"/>
+				<Perforation
+					name="Injector_3_W_perf68"
+					distanceFromHead="2810.3358313667313"/>
+				<Perforation
+					name="Injector_3_W_perf69"
+					distanceFromHead="2820.335831367341"/>
+				<Perforation
+					name="Injector_3_W_perf70"
+					distanceFromHead="2830.335831367951"/>
+				<Perforation
+					name="Injector_3_W_perf71"
+					distanceFromHead="2840.3358313685612"/>
+				<Perforation
+					name="Injector_3_W_perf72"
+					distanceFromHead="2850.3358313691715"/>
+				<Perforation
+					name="Injector_3_W_perf73"
+					distanceFromHead="2860.3358313697813"/>
+				<Perforation
+					name="Injector_3_W_perf74"
+					distanceFromHead="2870.3358313703916"/>
+				<Perforation
+					name="Injector_3_W_perf75"
+					distanceFromHead="2880.3358313710014"/>
+				<Perforation
+					name="Injector_3_W_perf76"
+					distanceFromHead="2890.3358313716117"/>
+				<Perforation
+					name="Injector_3_W_perf77"
+					distanceFromHead="2920.3358313734416"/>
+				<Perforation
+					name="Injector_3_W_perf78"
+					distanceFromHead="2950.335831375272"/>
+				<Perforation
+					name="Injector_3_W_perf79"
+					distanceFromHead="2960.3358313758818"/>
+				<Perforation
+					name="Injector_3_W_perf80"
+					distanceFromHead="2970.335831376492"/>
+				<Perforation
+					name="Injector_3_W_perf81"
+					distanceFromHead="2980.3358313771023"/>
+				<Perforation
+					name="Injector_3_W_perf82"
+					distanceFromHead="2990.335831377712"/>
+				<Perforation
+					name="Injector_3_W_perf83"
+					distanceFromHead="2996.3879156859584"/>
+				<Perforation
+					name="Injector_3_W_perf84"
+					distanceFromHead="3000.3358313783224"/>
+				<Perforation
+					name="Injector_3_W_perf85"
+					distanceFromHead="3006.3879156865687"/>
+				<Perforation
+					name="Injector_3_W_perf86"
+					distanceFromHead="3010.335831378932"/>
+				<Perforation
+					name="Injector_3_W_perf87"
+					distanceFromHead="3011.3879156868734"/>
+				<Perforation
+					name="Injector_3_W_perf88"
+					distanceFromHead="3020.3358313795425"/>
+				<Perforation
+					name="Injector_3_W_perf89"
+					distanceFromHead="3021.3879156874837"/>
+				<Perforation
+					name="Injector_3_W_perf90"
+					distanceFromHead="3030.3358313801527"/>
+				<Perforation
+					name="Injector_3_W_perf91"
+					distanceFromHead="3040.3358313807626"/>
+				<Perforation
+					name="Injector_3_W_perf92"
+					distanceFromHead="3050.3358313813724"/>
+				<Perforation
+					name="Injector_3_W_perf93"
+					distanceFromHead="3060.3358313819826"/>
+				<Perforation
+					name="Injector_3_W_perf94"
+					distanceFromHead="3070.335831382593"/>
+				<Perforation
+					name="Injector_3_W_perf95"
+					distanceFromHead="3080.3358313832027"/>
+				<Perforation
+					name="Injector_3_W_perf96"
+					distanceFromHead="3090.3358313838125"/>
+				<Perforation
+					name="Injector_3_W_perf97"
+					distanceFromHead="3096.387915692059"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_4_W"
+				wellRegionName="wellRegion4"
+				wellControlsName="wellControls2"
+				meshName="mesh"
+				polylineNodeCoords="{ { 1145.0, 1100.0, -0.0 },
+									{ 1145.0, 1100.0, -1900.0 },
+									{ 1145.0, 1099.8207739, -1908.191845 },
+									{ 1145.0, 1099.2834369, -1916.368095 },
+									{ 1145.0, 1098.3890117, -1924.513189 },
+									{ 1145.0, 1097.1392009, -1932.61162 },
+									{ 1145.0000001, 1095.5363837, -1940.647973 },
+									{ 1145.0000003, 1093.5836111, -1948.60695 },
+									{ 1145.0000005, 1091.2846003, -1956.473401 },
+									{ 1145.0000008, 1088.6437276, -1964.232352 },
+									{ 1145.0000013, 1085.66602, -1971.869033 },
+									{ 1145.0000019, 1082.3571459, -1979.368907 },
+									{ 1145.0000028, 1078.7234037, -1986.717698 },
+									{ 1145.0000039, 1074.7717106, -1993.901416 },
+									{ 1145.0000054, 1070.5095889, -2000.906389 },
+									{ 1145.0000071, 1065.9451517, -2007.71928 },
+									{ 1145.0000093, 1061.0870876, -2014.327121 },
+									{ 1145.000012, 1055.9446443, -2020.717334 },
+									{ 1145.0000151, 1050.5276108, -2026.877755 },
+									{ 1145.0000188, 1044.8462986, -2032.796657 },
+									{ 1145.000023, 1038.9115224, -2038.462772 },
+									{ 1145.0000279, 1032.7345795, -2043.865317 },
+									{ 1145.0000335, 1026.327228, -2048.994005 },
+									{ 1145.0000397, 1019.7016647, -2053.839074 },
+									{ 1145.0000468, 1012.8705016, -2058.391303 },
+									{ 1145.0000546, 1005.8467423, -2062.642024 },
+									{ 1145.0000633, 998.64375697, -2066.583147 },
+									{ 1145.0000729, 991.27525684, -2070.20717 },
+									{ 1145.0000833, 983.75526828, -2073.507193 },
+									{ 1145.0000946, 976.09810602, -2076.476936 },
+									{ 1145.0001069, 968.3183459, -2079.110745 },
+									{ 1145.0001201, 960.43079714, -2081.403606 },
+									{ 1145.0001342, 952.45047413, -2083.351156 },
+									{ 1145.0001493, 944.39256788, -2084.949686 },
+									{ 1145.0001653, 936.27241707, -2086.196154 },
+									{ 1145.0001822, 928.10547886, -2087.088186 },
+									{ 1145.0001999, 919.90729948, -2087.624086 },
+									{ 1145.0002186, 911.69348465, -2087.802833 },
+									{ 1145.0029749, 405.33908728, -2087.802833 },
+									{ 1145.0074017, 4.2662973199, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_4_W_perf1"
+					distanceFromHead="2153.2630027649166"/>
+				<Perforation
+					name="Injector_4_W_perf2"
+					distanceFromHead="2161.5961228734714"/>
+				<Perforation
+					name="Injector_4_W_perf3"
+					distanceFromHead="2167.9054531634083"/>
+				<Perforation
+					name="Injector_4_W_perf4"
+					distanceFromHead="2172.935527039778"/>
+				<Perforation
+					name="Injector_4_W_perf5"
+					distanceFromHead="2181.7301384085854"/>
+				<Perforation
+					name="Injector_4_W_perf6"
+					distanceFromHead="2191.7136867486724"/>
+				<Perforation
+					name="Injector_4_W_perf7"
+					distanceFromHead="2201.693484650099"/>
+				<Perforation
+					name="Injector_4_W_perf8"
+					distanceFromHead="2211.6934846502472"/>
+				<Perforation
+					name="Injector_4_W_perf9"
+					distanceFromHead="2221.6934846503955"/>
+				<Perforation
+					name="Injector_4_W_perf10"
+					distanceFromHead="2231.6934846505437"/>
+				<Perforation
+					name="Injector_4_W_perf11"
+					distanceFromHead="2241.693484650692"/>
+				<Perforation
+					name="Injector_4_W_perf12"
+					distanceFromHead="2251.6934846508398"/>
+				<Perforation
+					name="Injector_4_W_perf13"
+					distanceFromHead="2261.693484650988"/>
+				<Perforation
+					name="Injector_4_W_perf14"
+					distanceFromHead="2271.6934846511363"/>
+				<Perforation
+					name="Injector_4_W_perf15"
+					distanceFromHead="2281.6934846512845"/>
+				<Perforation
+					name="Injector_4_W_perf16"
+					distanceFromHead="2291.6934846514323"/>
+				<Perforation
+					name="Injector_4_W_perf17"
+					distanceFromHead="2301.6934846515805"/>
+				<Perforation
+					name="Injector_4_W_perf18"
+					distanceFromHead="2311.693484651729"/>
+				<Perforation
+					name="Injector_4_W_perf19"
+					distanceFromHead="2321.693484651877"/>
+				<Perforation
+					name="Injector_4_W_perf20"
+					distanceFromHead="2331.6934846520253"/>
+				<Perforation
+					name="Injector_4_W_perf21"
+					distanceFromHead="2341.6934846521735"/>
+				<Perforation
+					name="Injector_4_W_perf22"
+					distanceFromHead="2351.6934846523213"/>
+				<Perforation
+					name="Injector_4_W_perf23"
+					distanceFromHead="2361.6934846524696"/>
+				<Perforation
+					name="Injector_4_W_perf24"
+					distanceFromHead="2371.693484652618"/>
+				<Perforation
+					name="Injector_4_W_perf25"
+					distanceFromHead="2381.693484652766"/>
+				<Perforation
+					name="Injector_4_W_perf26"
+					distanceFromHead="2391.693484652914"/>
+				<Perforation
+					name="Injector_4_W_perf27"
+					distanceFromHead="2401.693484653062"/>
+				<Perforation
+					name="Injector_4_W_perf28"
+					distanceFromHead="2411.6934846532104"/>
+				<Perforation
+					name="Injector_4_W_perf29"
+					distanceFromHead="2421.6934846533586"/>
+				<Perforation
+					name="Injector_4_W_perf30"
+					distanceFromHead="2431.693484653507"/>
+				<Perforation
+					name="Injector_4_W_perf31"
+					distanceFromHead="2441.6934846536547"/>
+				<Perforation
+					name="Injector_4_W_perf32"
+					distanceFromHead="2451.693484653803"/>
+				<Perforation
+					name="Injector_4_W_perf33"
+					distanceFromHead="2461.693484653951"/>
+				<Perforation
+					name="Injector_4_W_perf34"
+					distanceFromHead="2471.6934846540994"/>
+				<Perforation
+					name="Injector_4_W_perf35"
+					distanceFromHead="2481.6934846542476"/>
+				<Perforation
+					name="Injector_4_W_perf36"
+					distanceFromHead="2491.6934846543954"/>
+				<Perforation
+					name="Injector_4_W_perf37"
+					distanceFromHead="2501.6934846545437"/>
+				<Perforation
+					name="Injector_4_W_perf38"
+					distanceFromHead="2511.693484654692"/>
+				<Perforation
+					name="Injector_4_W_perf39"
+					distanceFromHead="2521.69348465484"/>
+				<Perforation
+					name="Injector_4_W_perf40"
+					distanceFromHead="2531.6934846549884"/>
+				<Perforation
+					name="Injector_4_W_perf41"
+					distanceFromHead="2541.693484655136"/>
+				<Perforation
+					name="Injector_4_W_perf42"
+					distanceFromHead="2551.6934846552845"/>
+				<Perforation
+					name="Injector_4_W_perf43"
+					distanceFromHead="2561.6934846554327"/>
+				<Perforation
+					name="Injector_4_W_perf44"
+					distanceFromHead="2571.693484655581"/>
+				<Perforation
+					name="Injector_4_W_perf45"
+					distanceFromHead="2581.6934846557288"/>
+				<Perforation
+					name="Injector_4_W_perf46"
+					distanceFromHead="2591.693484655877"/>
+				<Perforation
+					name="Injector_4_W_perf47"
+					distanceFromHead="2601.6934846560252"/>
+				<Perforation
+					name="Injector_4_W_perf48"
+					distanceFromHead="2611.6934846561735"/>
+				<Perforation
+					name="Injector_4_W_perf49"
+					distanceFromHead="2621.6934846563217"/>
+				<Perforation
+					name="Injector_4_W_perf50"
+					distanceFromHead="2631.69348465647"/>
+				<Perforation
+					name="Injector_4_W_perf51"
+					distanceFromHead="2641.693484656618"/>
+				<Perforation
+					name="Injector_4_W_perf52"
+					distanceFromHead="2651.693484656766"/>
+				<Perforation
+					name="Injector_4_W_perf53"
+					distanceFromHead="2661.6934846569143"/>
+				<Perforation
+					name="Injector_4_W_perf54"
+					distanceFromHead="2671.6934846570625"/>
+				<Perforation
+					name="Injector_4_W_perf55"
+					distanceFromHead="2681.6934846572103"/>
+				<Perforation
+					name="Injector_4_W_perf56"
+					distanceFromHead="2691.6934846573586"/>
+				<Perforation
+					name="Injector_4_W_perf57"
+					distanceFromHead="2701.016285968879"/>
+				<Perforation
+					name="Injector_4_W_perf58"
+					distanceFromHead="2710.3390872806294"/>
+				<Perforation
+					name="Injector_4_W_perf59"
+					distanceFromHead="2720.339087281239"/>
+				<Perforation
+					name="Injector_4_W_perf60"
+					distanceFromHead="2730.339087281848"/>
+				<Perforation
+					name="Injector_4_W_perf61"
+					distanceFromHead="2740.339087282457"/>
+				<Perforation
+					name="Injector_4_W_perf62"
+					distanceFromHead="2750.339087283066"/>
+				<Perforation
+					name="Injector_4_W_perf63"
+					distanceFromHead="2760.3390872836753"/>
+				<Perforation
+					name="Injector_4_W_perf64"
+					distanceFromHead="2770.3390872842847"/>
+				<Perforation
+					name="Injector_4_W_perf65"
+					distanceFromHead="2780.3390872848936"/>
+				<Perforation
+					name="Injector_4_W_perf66"
+					distanceFromHead="2790.3390872855025"/>
+				<Perforation
+					name="Injector_4_W_perf67"
+					distanceFromHead="2800.339087286112"/>
+				<Perforation
+					name="Injector_4_W_perf68"
+					distanceFromHead="2810.339087286721"/>
+				<Perforation
+					name="Injector_4_W_perf69"
+					distanceFromHead="2820.33908728733"/>
+				<Perforation
+					name="Injector_4_W_perf70"
+					distanceFromHead="2830.339087287939"/>
+				<Perforation
+					name="Injector_4_W_perf71"
+					distanceFromHead="2840.3390872885484"/>
+				<Perforation
+					name="Injector_4_W_perf72"
+					distanceFromHead="2850.3390872891578"/>
+				<Perforation
+					name="Injector_4_W_perf73"
+					distanceFromHead="2860.3390872897667"/>
+				<Perforation
+					name="Injector_4_W_perf74"
+					distanceFromHead="2870.3390872903756"/>
+				<Perforation
+					name="Injector_4_W_perf75"
+					distanceFromHead="2880.339087290985"/>
+				<Perforation
+					name="Injector_4_W_perf76"
+					distanceFromHead="2890.3390872915943"/>
+				<Perforation
+					name="Injector_4_W_perf77"
+					distanceFromHead="2900.3390872922027"/>
+				<Perforation
+					name="Injector_4_W_perf78"
+					distanceFromHead="2970.339087296467"/>
+				<Perforation
+					name="Injector_4_W_perf79"
+					distanceFromHead="2980.339087297076"/>
+				<Perforation
+					name="Injector_4_W_perf80"
+					distanceFromHead="2990.339087297685"/>
+				<Perforation
+					name="Injector_4_W_perf81"
+					distanceFromHead="3000.3390872982945"/>
+				<Perforation
+					name="Injector_4_W_perf82"
+					distanceFromHead="3001.3895436462535"/>
+				<Perforation
+					name="Injector_4_W_perf83"
+					distanceFromHead="3010.3390872989035"/>
+				<Perforation
+					name="Injector_4_W_perf84"
+					distanceFromHead="3011.389543646863"/>
+				<Perforation
+					name="Injector_4_W_perf85"
+					distanceFromHead="3011.389543646863"/>
+				<Perforation
+					name="Injector_4_W_perf86"
+					distanceFromHead="3020.3390872995124"/>
+				<Perforation
+					name="Injector_4_W_perf87"
+					distanceFromHead="3021.3895436474722"/>
+				<Perforation
+					name="Injector_4_W_perf88"
+					distanceFromHead="3021.3895436474722"/>
+				<Perforation
+					name="Injector_4_W_perf89"
+					distanceFromHead="3030.3390873001217"/>
+				<Perforation
+					name="Injector_4_W_perf90"
+					distanceFromHead="3031.389543648081"/>
+				<Perforation
+					name="Injector_4_W_perf91"
+					distanceFromHead="3040.339087300731"/>
+				<Perforation
+					name="Injector_4_W_perf92"
+					distanceFromHead="3050.3390873013395"/>
+				<Perforation
+					name="Injector_4_W_perf93"
+					distanceFromHead="3060.339087301949"/>
+				<Perforation
+					name="Injector_4_W_perf94"
+					distanceFromHead="3070.3390873025583"/>
+				<Perforation
+					name="Injector_4_W_perf95"
+					distanceFromHead="3080.3390873031676"/>
+				<Perforation
+					name="Injector_4_W_perf96"
+					distanceFromHead="3090.339087303776"/>
+				<Perforation
+					name="Injector_4_W_perf97"
+					distanceFromHead="3096.3895436520406"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_1_O"
+				wellRegionName="wellRegion5"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 195.0, 1100.0, -0.0 },
+									{ 195.0, 1100.0, -1900.0 },
+									{ 195.0, 1099.8207718, -1908.191845 },
+									{ 195.0, 1099.2834285, -1916.368095 },
+									{ 195.00000002, 1098.3889928, -1924.513189 },
+									{ 195.00000005, 1097.1391674, -1932.61162 },
+									{ 195.00000012, 1095.5363314, -1940.647973 },
+									{ 195.00000025, 1093.5835359, -1948.60695 },
+									{ 195.00000047, 1091.2844981, -1956.473401 },
+									{ 195.0000008, 1088.6435944, -1964.232352 },
+									{ 195.00000127, 1085.665852, -1971.869033 },
+									{ 195.00000192, 1082.356939, -1979.368907 },
+									{ 195.0000028, 1078.7231543, -1986.717698 },
+									{ 195.00000393, 1074.7714149, -1993.901416 },
+									{ 195.00000537, 1070.5092431, -2000.906389 },
+									{ 195.00000716, 1065.9447524, -2007.71928 },
+									{ 195.00000935, 1061.0866314, -2014.327121 },
+									{ 195.00001199, 1055.9441278, -2020.717334 },
+									{ 195.00001512, 1050.5270308, -2026.877755 },
+									{ 195.00001879, 1044.845652, -2032.796657 },
+									{ 195.00002305, 1038.9108062, -2038.462772 },
+									{ 195.00002795, 1032.7337909, -2043.865317 },
+									{ 195.00003352, 1026.3263643, -2048.994005 },
+									{ 195.00003983, 1019.7007232, -2053.839074 },
+									{ 195.00004689, 1012.8694801, -2058.391303 },
+									{ 195.00005476, 1005.8456384, -2062.642024 },
+									{ 195.00006345, 998.64256864, -2066.583147 },
+									{ 195.00007301, 991.27398211, -2070.20717 },
+									{ 195.00008346, 983.75390539, -2073.507193 },
+									{ 195.00009482, 976.09665335, -2076.476936 },
+									{ 195.0001071, 968.31680202, -2079.110745 },
+									{ 195.00012032, 960.42916078, -2081.403606 },
+									{ 195.00013447, 952.44874421, -2083.351156 },
+									{ 195.00014956, 944.39074349, -2084.949686 },
+									{ 195.00016558, 936.27049747, -2086.196154 },
+									{ 195.00018251, 928.10346351, -2087.088186 },
+									{ 195.00020033, 919.90518801, -2087.624086 },
+									{ 195.00021902, 911.69127688, -2087.802833 },
+									{ 195.00298057, 405.33094284, -2087.802833 },
+									{ 195.0074159, 4.2534505672, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_1_O_perf1"
+					distanceFromHead="2153.2621203949075"/>
+				<Perforation
+					name="Producer_1_O_perf2"
+					distanceFromHead="2161.594317024416"/>
+				<Perforation
+					name="Producer_1_O_perf3"
+					distanceFromHead="2167.90456933346"/>
+				<Perforation
+					name="Producer_1_O_perf4"
+					distanceFromHead="2172.9346007446957"/>
+				<Perforation
+					name="Producer_1_O_perf5"
+					distanceFromHead="2181.7281624362504"/>
+				<Perforation
+					name="Producer_1_O_perf6"
+					distanceFromHead="2191.7115728355193"/>
+				<Perforation
+					name="Producer_1_O_perf7"
+					distanceFromHead="2201.6912768800994"/>
+				<Perforation
+					name="Producer_1_O_perf8"
+					distanceFromHead="2211.6912768802486"/>
+				<Perforation
+					name="Producer_1_O_perf9"
+					distanceFromHead="2221.691276880397"/>
+				<Perforation
+					name="Producer_1_O_perf10"
+					distanceFromHead="2231.691276880546"/>
+				<Perforation
+					name="Producer_1_O_perf11"
+					distanceFromHead="2241.691276880694"/>
+				<Perforation
+					name="Producer_1_O_perf12"
+					distanceFromHead="2251.6912768808434"/>
+				<Perforation
+					name="Producer_1_O_perf13"
+					distanceFromHead="2261.6912768809916"/>
+				<Perforation
+					name="Producer_1_O_perf14"
+					distanceFromHead="2271.6912768811408"/>
+				<Perforation
+					name="Producer_1_O_perf15"
+					distanceFromHead="2281.691276881289"/>
+				<Perforation
+					name="Producer_1_O_perf16"
+					distanceFromHead="2291.691276881438"/>
+				<Perforation
+					name="Producer_1_O_perf17"
+					distanceFromHead="2301.6912768815864"/>
+				<Perforation
+					name="Producer_1_O_perf18"
+					distanceFromHead="2311.6912768817356"/>
+				<Perforation
+					name="Producer_1_O_perf19"
+					distanceFromHead="2321.691276881884"/>
+				<Perforation
+					name="Producer_1_O_perf20"
+					distanceFromHead="2331.691276882033"/>
+				<Perforation
+					name="Producer_1_O_perf21"
+					distanceFromHead="2341.6912768821812"/>
+				<Perforation
+					name="Producer_1_O_perf22"
+					distanceFromHead="2351.6912768823304"/>
+				<Perforation
+					name="Producer_1_O_perf23"
+					distanceFromHead="2361.6912768824786"/>
+				<Perforation
+					name="Producer_1_O_perf24"
+					distanceFromHead="2371.691276882628"/>
+				<Perforation
+					name="Producer_1_O_perf25"
+					distanceFromHead="2381.691276882776"/>
+				<Perforation
+					name="Producer_1_O_perf26"
+					distanceFromHead="2391.691276882925"/>
+				<Perforation
+					name="Producer_1_O_perf27"
+					distanceFromHead="2401.6912768830734"/>
+				<Perforation
+					name="Producer_1_O_perf28"
+					distanceFromHead="2411.6912768832226"/>
+				<Perforation
+					name="Producer_1_O_perf29"
+					distanceFromHead="2421.691276883371"/>
+				<Perforation
+					name="Producer_1_O_perf30"
+					distanceFromHead="2431.69127688352"/>
+				<Perforation
+					name="Producer_1_O_perf31"
+					distanceFromHead="2441.691276883669"/>
+				<Perforation
+					name="Producer_1_O_perf32"
+					distanceFromHead="2451.6912768838174"/>
+				<Perforation
+					name="Producer_1_O_perf33"
+					distanceFromHead="2461.6912768839666"/>
+				<Perforation
+					name="Producer_1_O_perf34"
+					distanceFromHead="2471.691276884115"/>
+				<Perforation
+					name="Producer_1_O_perf35"
+					distanceFromHead="2481.691276884264"/>
+				<Perforation
+					name="Producer_1_O_perf36"
+					distanceFromHead="2491.691276884412"/>
+				<Perforation
+					name="Producer_1_O_perf37"
+					distanceFromHead="2501.6912768845614"/>
+				<Perforation
+					name="Producer_1_O_perf38"
+					distanceFromHead="2511.6912768847096"/>
+				<Perforation
+					name="Producer_1_O_perf39"
+					distanceFromHead="2521.691276884859"/>
+				<Perforation
+					name="Producer_1_O_perf40"
+					distanceFromHead="2531.691276885007"/>
+				<Perforation
+					name="Producer_1_O_perf41"
+					distanceFromHead="2541.691276885156"/>
+				<Perforation
+					name="Producer_1_O_perf42"
+					distanceFromHead="2551.6912768853044"/>
+				<Perforation
+					name="Producer_1_O_perf43"
+					distanceFromHead="2561.6912768854536"/>
+				<Perforation
+					name="Producer_1_O_perf44"
+					distanceFromHead="2571.691276885602"/>
+				<Perforation
+					name="Producer_1_O_perf45"
+					distanceFromHead="2581.691276885751"/>
+				<Perforation
+					name="Producer_1_O_perf46"
+					distanceFromHead="2591.6912768858992"/>
+				<Perforation
+					name="Producer_1_O_perf47"
+					distanceFromHead="2601.6912768860484"/>
+				<Perforation
+					name="Producer_1_O_perf48"
+					distanceFromHead="2611.6912768861966"/>
+				<Perforation
+					name="Producer_1_O_perf49"
+					distanceFromHead="2621.691276886346"/>
+				<Perforation
+					name="Producer_1_O_perf50"
+					distanceFromHead="2631.691276886494"/>
+				<Perforation
+					name="Producer_1_O_perf51"
+					distanceFromHead="2641.691276886643"/>
+				<Perforation
+					name="Producer_1_O_perf52"
+					distanceFromHead="2651.6912768867915"/>
+				<Perforation
+					name="Producer_1_O_perf53"
+					distanceFromHead="2661.6912768869406"/>
+				<Perforation
+					name="Producer_1_O_perf54"
+					distanceFromHead="2671.691276887089"/>
+				<Perforation
+					name="Producer_1_O_perf55"
+					distanceFromHead="2681.691276887238"/>
+				<Perforation
+					name="Producer_1_O_perf56"
+					distanceFromHead="2691.6912768873863"/>
+				<Perforation
+					name="Producer_1_O_perf57"
+					distanceFromHead="2701.0111098638936"/>
+				<Perforation
+					name="Producer_1_O_perf58"
+					distanceFromHead="2710.330942840632"/>
+				<Perforation
+					name="Producer_1_O_perf59"
+					distanceFromHead="2720.330942841243"/>
+				<Perforation
+					name="Producer_1_O_perf60"
+					distanceFromHead="2730.3309428418543"/>
+				<Perforation
+					name="Producer_1_O_perf61"
+					distanceFromHead="2740.3309428424664"/>
+				<Perforation
+					name="Producer_1_O_perf62"
+					distanceFromHead="2750.3309428430775"/>
+				<Perforation
+					name="Producer_1_O_perf63"
+					distanceFromHead="2760.3309428436887"/>
+				<Perforation
+					name="Producer_1_O_perf64"
+					distanceFromHead="2770.3309428443004"/>
+				<Perforation
+					name="Producer_1_O_perf65"
+					distanceFromHead="2780.330942844912"/>
+				<Perforation
+					name="Producer_1_O_perf66"
+					distanceFromHead="2790.330942845523"/>
+				<Perforation
+					name="Producer_1_O_perf67"
+					distanceFromHead="2800.330942846135"/>
+				<Perforation
+					name="Producer_1_O_perf68"
+					distanceFromHead="2810.3309428467464"/>
+				<Perforation
+					name="Producer_1_O_perf69"
+					distanceFromHead="2820.3309428473576"/>
+				<Perforation
+					name="Producer_1_O_perf70"
+					distanceFromHead="2830.330942847969"/>
+				<Perforation
+					name="Producer_1_O_perf71"
+					distanceFromHead="2840.330942848581"/>
+				<Perforation
+					name="Producer_1_O_perf72"
+					distanceFromHead="2850.330942849192"/>
+				<Perforation
+					name="Producer_1_O_perf73"
+					distanceFromHead="2860.3309428498033"/>
+				<Perforation
+					name="Producer_1_O_perf74"
+					distanceFromHead="2870.3309428504153"/>
+				<Perforation
+					name="Producer_1_O_perf75"
+					distanceFromHead="2880.3309428510265"/>
+				<Perforation
+					name="Producer_1_O_perf76"
+					distanceFromHead="2890.3309428516377"/>
+				<Perforation
+					name="Producer_1_O_perf77"
+					distanceFromHead="2900.3309428522493"/>
+				<Perforation
+					name="Producer_1_O_perf78"
+					distanceFromHead="2910.330942852861"/>
+				<Perforation
+					name="Producer_1_O_perf79"
+					distanceFromHead="2920.330942853472"/>
+				<Perforation
+					name="Producer_1_O_perf80"
+					distanceFromHead="2930.3309428540833"/>
+				<Perforation
+					name="Producer_1_O_perf81"
+					distanceFromHead="2940.3309428546954"/>
+				<Perforation
+					name="Producer_1_O_perf82"
+					distanceFromHead="2970.33094285653"/>
+				<Perforation
+					name="Producer_1_O_perf83"
+					distanceFromHead="2980.330942857141"/>
+				<Perforation
+					name="Producer_1_O_perf84"
+					distanceFromHead="2990.3309428577522"/>
+				<Perforation
+					name="Producer_1_O_perf85"
+					distanceFromHead="3000.330942858364"/>
+				<Perforation
+					name="Producer_1_O_perf86"
+					distanceFromHead="3010.3309428589755"/>
+				<Perforation
+					name="Producer_1_O_perf87"
+					distanceFromHead="3020.3309428595867"/>
+				<Perforation
+					name="Producer_1_O_perf88"
+					distanceFromHead="3021.3854714275003"/>
+				<Perforation
+					name="Producer_1_O_perf89"
+					distanceFromHead="3030.330942860198"/>
+				<Perforation
+					name="Producer_1_O_perf90"
+					distanceFromHead="3031.385471428112"/>
+				<Perforation
+					name="Producer_1_O_perf91"
+					distanceFromHead="3040.33094286081"/>
+				<Perforation
+					name="Producer_1_O_perf92"
+					distanceFromHead="3050.330942861421"/>
+				<Perforation
+					name="Producer_1_O_perf93"
+					distanceFromHead="3060.3309428620323"/>
+				<Perforation
+					name="Producer_1_O_perf94"
+					distanceFromHead="3070.3309428626444"/>
+				<Perforation
+					name="Producer_1_O_perf95"
+					distanceFromHead="3080.3309428632556"/>
+				<Perforation
+					name="Producer_1_O_perf96"
+					distanceFromHead="3090.3309428638668"/>
+				<Perforation
+					name="Producer_1_O_perf97"
+					distanceFromHead="3096.3854714320864"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_2_O"
+				wellRegionName="wellRegion6"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 575.0, 1100.0, -0.0 },
+									{ 575.0, 1100.0, -1900.0 },
+									{ 575.0, 1099.8207727, -1908.191845 },
+									{ 575.0, 1099.2834318, -1916.368095 },
+									{ 575.00000002, 1098.3890003, -1924.513189 },
+									{ 575.00000005, 1097.1391808, -1932.61162 },
+									{ 575.00000012, 1095.5363523, -1940.647973 },
+									{ 575.00000025, 1093.583566, -1948.60695 },
+									{ 575.00000047, 1091.284539, -1956.473401 },
+									{ 575.0000008, 1088.6436477, -1964.232352 },
+									{ 575.00000127, 1085.6659192, -1971.869033 },
+									{ 575.00000192, 1082.3570218, -1979.368907 },
+									{ 575.00000279, 1078.7232541, -1986.717698 },
+									{ 575.00000393, 1074.7715332, -1993.901416 },
+									{ 575.00000537, 1070.5093815, -2000.906389 },
+									{ 575.00000716, 1065.9449122, -2007.71928 },
+									{ 575.00000935, 1061.086814, -2014.327121 },
+									{ 575.00001198, 1055.9443345, -2020.717334 },
+									{ 575.00001511, 1050.5272629, -2026.877755 },
+									{ 575.00001877, 1044.8459108, -2032.796657 },
+									{ 575.00002303, 1038.9110929, -2038.462772 },
+									{ 575.00002793, 1032.7341065, -2043.865317 },
+									{ 575.0000335, 1026.32671, -2048.994005 },
+									{ 575.0000398, 1019.7011, -2053.839074 },
+									{ 575.00004685, 1012.8698889, -2058.391303 },
+									{ 575.00005471, 1005.8460802, -2062.642024 },
+									{ 575.0000634, 998.64304424, -2066.583147 },
+									{ 575.00007296, 991.2744923, -2070.20717 },
+									{ 575.0000834, 983.75445085, -2073.507193 },
+									{ 575.00009475, 976.09723475, -2076.476936 },
+									{ 575.00010702, 968.31741992, -2079.110745 },
+									{ 575.00012023, 960.4298157, -2081.403606 },
+									{ 575.00013437, 952.44943657, -2083.351156 },
+									{ 575.00014944, 944.39147366, -2084.949686 },
+									{ 575.00016545, 936.27126575, -2086.196154 },
+									{ 575.00018237, 928.10427011, -2087.088186 },
+									{ 575.00020018, 919.90603308, -2087.624086 },
+									{ 575.00021885, 911.69216049, -2087.802833 },
+									{ 575.00297829, 405.33420248, -2087.802833 },
+									{ 575.00741021, 4.2585922065, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_2_O_perf1"
+					distanceFromHead="2153.2624735427635"/>
+				<Perforation
+					name="Producer_2_O_perf2"
+					distanceFromHead="2161.5950397734164"/>
+				<Perforation
+					name="Producer_2_O_perf3"
+					distanceFromHead="2167.9049230641367"/>
+				<Perforation
+					name="Producer_2_O_perf4"
+					distanceFromHead="2172.9349714732657"/>
+				<Perforation
+					name="Producer_2_O_perf5"
+					distanceFromHead="2181.7289532770747"/>
+				<Perforation
+					name="Producer_2_O_perf6"
+					distanceFromHead="2191.712418882305"/>
+				<Perforation
+					name="Producer_2_O_perf7"
+					distanceFromHead="2201.6921604900995"/>
+				<Perforation
+					name="Producer_2_O_perf8"
+					distanceFromHead="2211.692160490248"/>
+				<Perforation
+					name="Producer_2_O_perf9"
+					distanceFromHead="2221.6921604903964"/>
+				<Perforation
+					name="Producer_2_O_perf10"
+					distanceFromHead="2231.6921604905447"/>
+				<Perforation
+					name="Producer_2_O_perf11"
+					distanceFromHead="2241.6921604906934"/>
+				<Perforation
+					name="Producer_2_O_perf12"
+					distanceFromHead="2251.692160490842"/>
+				<Perforation
+					name="Producer_2_O_perf13"
+					distanceFromHead="2261.6921604909903"/>
+				<Perforation
+					name="Producer_2_O_perf14"
+					distanceFromHead="2271.6921604911386"/>
+				<Perforation
+					name="Producer_2_O_perf15"
+					distanceFromHead="2281.6921604912873"/>
+				<Perforation
+					name="Producer_2_O_perf16"
+					distanceFromHead="2291.692160491436"/>
+				<Perforation
+					name="Producer_2_O_perf17"
+					distanceFromHead="2301.692160491584"/>
+				<Perforation
+					name="Producer_2_O_perf18"
+					distanceFromHead="2311.6921604917325"/>
+				<Perforation
+					name="Producer_2_O_perf19"
+					distanceFromHead="2321.692160491881"/>
+				<Perforation
+					name="Producer_2_O_perf20"
+					distanceFromHead="2331.69216049203"/>
+				<Perforation
+					name="Producer_2_O_perf21"
+					distanceFromHead="2341.692160492178"/>
+				<Perforation
+					name="Producer_2_O_perf22"
+					distanceFromHead="2351.692160492327"/>
+				<Perforation
+					name="Producer_2_O_perf23"
+					distanceFromHead="2361.6921604924755"/>
+				<Perforation
+					name="Producer_2_O_perf24"
+					distanceFromHead="2371.6921604926238"/>
+				<Perforation
+					name="Producer_2_O_perf25"
+					distanceFromHead="2381.692160492772"/>
+				<Perforation
+					name="Producer_2_O_perf26"
+					distanceFromHead="2391.6921604929207"/>
+				<Perforation
+					name="Producer_2_O_perf27"
+					distanceFromHead="2401.6921604930694"/>
+				<Perforation
+					name="Producer_2_O_perf28"
+					distanceFromHead="2411.6921604932177"/>
+				<Perforation
+					name="Producer_2_O_perf29"
+					distanceFromHead="2421.692160493366"/>
+				<Perforation
+					name="Producer_2_O_perf30"
+					distanceFromHead="2431.6921604935146"/>
+				<Perforation
+					name="Producer_2_O_perf31"
+					distanceFromHead="2441.6921604936633"/>
+				<Perforation
+					name="Producer_2_O_perf32"
+					distanceFromHead="2451.6921604938116"/>
+				<Perforation
+					name="Producer_2_O_perf33"
+					distanceFromHead="2461.69216049396"/>
+				<Perforation
+					name="Producer_2_O_perf34"
+					distanceFromHead="2471.6921604941085"/>
+				<Perforation
+					name="Producer_2_O_perf35"
+					distanceFromHead="2481.692160494257"/>
+				<Perforation
+					name="Producer_2_O_perf36"
+					distanceFromHead="2491.6921604944055"/>
+				<Perforation
+					name="Producer_2_O_perf37"
+					distanceFromHead="2501.6921604945537"/>
+				<Perforation
+					name="Producer_2_O_perf38"
+					distanceFromHead="2511.692160494703"/>
+				<Perforation
+					name="Producer_2_O_perf39"
+					distanceFromHead="2521.692160494851"/>
+				<Perforation
+					name="Producer_2_O_perf40"
+					distanceFromHead="2531.6921604949994"/>
+				<Perforation
+					name="Producer_2_O_perf41"
+					distanceFromHead="2541.692160495148"/>
+				<Perforation
+					name="Producer_2_O_perf42"
+					distanceFromHead="2551.692160495297"/>
+				<Perforation
+					name="Producer_2_O_perf43"
+					distanceFromHead="2561.692160495445"/>
+				<Perforation
+					name="Producer_2_O_perf44"
+					distanceFromHead="2571.6921604955933"/>
+				<Perforation
+					name="Producer_2_O_perf45"
+					distanceFromHead="2581.692160495742"/>
+				<Perforation
+					name="Producer_2_O_perf46"
+					distanceFromHead="2591.6921604958907"/>
+				<Perforation
+					name="Producer_2_O_perf47"
+					distanceFromHead="2601.692160496039"/>
+				<Perforation
+					name="Producer_2_O_perf48"
+					distanceFromHead="2611.692160496187"/>
+				<Perforation
+					name="Producer_2_O_perf49"
+					distanceFromHead="2621.692160496336"/>
+				<Perforation
+					name="Producer_2_O_perf50"
+					distanceFromHead="2623.7200000000003"/>
+				<Perforation
+					name="Producer_2_O_perf51"
+					distanceFromHead="2631.6921604964846"/>
+				<Perforation
+					name="Producer_2_O_perf52"
+					distanceFromHead="2641.692160496633"/>
+				<Perforation
+					name="Producer_2_O_perf53"
+					distanceFromHead="2651.6921604967815"/>
+				<Perforation
+					name="Producer_2_O_perf54"
+					distanceFromHead="2661.69216049693"/>
+				<Perforation
+					name="Producer_2_O_perf55"
+					distanceFromHead="2671.6921604970785"/>
+				<Perforation
+					name="Producer_2_O_perf56"
+					distanceFromHead="2681.6921604972267"/>
+				<Perforation
+					name="Producer_2_O_perf57"
+					distanceFromHead="2691.6921604973754"/>
+				<Perforation
+					name="Producer_2_O_perf58"
+					distanceFromHead="2701.0131814888873"/>
+				<Perforation
+					name="Producer_2_O_perf59"
+					distanceFromHead="2710.3342024806307"/>
+				<Perforation
+					name="Producer_2_O_perf60"
+					distanceFromHead="2720.3342024812414"/>
+				<Perforation
+					name="Producer_2_O_perf61"
+					distanceFromHead="2730.334202481852"/>
+				<Perforation
+					name="Producer_2_O_perf62"
+					distanceFromHead="2740.3342024824624"/>
+				<Perforation
+					name="Producer_2_O_perf63"
+					distanceFromHead="2750.3342024830727"/>
+				<Perforation
+					name="Producer_2_O_perf64"
+					distanceFromHead="2760.334202483684"/>
+				<Perforation
+					name="Producer_2_O_perf65"
+					distanceFromHead="2770.334202484294"/>
+				<Perforation
+					name="Producer_2_O_perf66"
+					distanceFromHead="2780.3342024849044"/>
+				<Perforation
+					name="Producer_2_O_perf67"
+					distanceFromHead="2790.334202485515"/>
+				<Perforation
+					name="Producer_2_O_perf68"
+					distanceFromHead="2800.334202486126"/>
+				<Perforation
+					name="Producer_2_O_perf69"
+					distanceFromHead="2810.334202486736"/>
+				<Perforation
+					name="Producer_2_O_perf70"
+					distanceFromHead="2820.3342024873464"/>
+				<Perforation
+					name="Producer_2_O_perf71"
+					distanceFromHead="2830.334202487957"/>
+				<Perforation
+					name="Producer_2_O_perf72"
+					distanceFromHead="2840.334202488568"/>
+				<Perforation
+					name="Producer_2_O_perf73"
+					distanceFromHead="2850.334202489178"/>
+				<Perforation
+					name="Producer_2_O_perf74"
+					distanceFromHead="2860.334202489789"/>
+				<Perforation
+					name="Producer_2_O_perf75"
+					distanceFromHead="2870.3342024903995"/>
+				<Perforation
+					name="Producer_2_O_perf76"
+					distanceFromHead="2880.33420249101"/>
+				<Perforation
+					name="Producer_2_O_perf77"
+					distanceFromHead="2890.33420249162"/>
+				<Perforation
+					name="Producer_2_O_perf78"
+					distanceFromHead="2900.334202492231"/>
+				<Perforation
+					name="Producer_2_O_perf79"
+					distanceFromHead="2910.3342024928415"/>
+				<Perforation
+					name="Producer_2_O_perf80"
+					distanceFromHead="2940.3342024946733"/>
+				<Perforation
+					name="Producer_2_O_perf81"
+					distanceFromHead="2970.3342024965045"/>
+				<Perforation
+					name="Producer_2_O_perf82"
+					distanceFromHead="2980.3342024971153"/>
+				<Perforation
+					name="Producer_2_O_perf83"
+					distanceFromHead="2990.3342024977255"/>
+				<Perforation
+					name="Producer_2_O_perf84"
+					distanceFromHead="3000.334202498336"/>
+				<Perforation
+					name="Producer_2_O_perf85"
+					distanceFromHead="3006.3871012465734"/>
+				<Perforation
+					name="Producer_2_O_perf86"
+					distanceFromHead="3010.3342024989465"/>
+				<Perforation
+					name="Producer_2_O_perf87"
+					distanceFromHead="3016.3871012471836"/>
+				<Perforation
+					name="Producer_2_O_perf88"
+					distanceFromHead="3020.3342024995573"/>
+				<Perforation
+					name="Producer_2_O_perf89"
+					distanceFromHead="3021.387101247489"/>
+				<Perforation
+					name="Producer_2_O_perf90"
+					distanceFromHead="3030.3342025001675"/>
+				<Perforation
+					name="Producer_2_O_perf91"
+					distanceFromHead="3031.3871012480995"/>
+				<Perforation
+					name="Producer_2_O_perf92"
+					distanceFromHead="3040.3342025007782"/>
+				<Perforation
+					name="Producer_2_O_perf93"
+					distanceFromHead="3050.334202501389"/>
+				<Perforation
+					name="Producer_2_O_perf94"
+					distanceFromHead="3060.3342025019992"/>
+				<Perforation
+					name="Producer_2_O_perf95"
+					distanceFromHead="3070.3342025026095"/>
+				<Perforation
+					name="Producer_2_O_perf96"
+					distanceFromHead="3080.3342025032202"/>
+				<Perforation
+					name="Producer_2_O_perf97"
+					distanceFromHead="3090.334202503831"/>
+				<Perforation
+					name="Producer_2_O_perf98"
+					distanceFromHead="3096.387101252068"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_3_O"
+				wellRegionName="wellRegion7"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 955.0, 1100.0, -0.0 },
+									{ 955.0, 1100.0, -1900.0 },
+									{ 955.0, 1099.8207735, -1908.191845 },
+									{ 955.0, 1099.2834352, -1916.368095 },
+									{ 955.00000002, 1098.3890079, -1924.513189 },
+									{ 955.00000005, 1097.1391942, -1932.61162 },
+									{ 955.00000012, 1095.5363732, -1940.647973 },
+									{ 955.00000025, 1093.5835961, -1948.60695 },
+									{ 955.00000047, 1091.2845799, -1956.473401 },
+									{ 955.00000079, 1088.643701, -1964.232352 },
+									{ 955.00000127, 1085.6659864, -1971.869033 },
+									{ 955.00000192, 1082.3571045, -1979.368907 },
+									{ 955.00000279, 1078.7233539, -1986.717698 },
+									{ 955.00000392, 1074.7716515, -1993.901416 },
+									{ 955.00000536, 1070.5095198, -2000.906389 },
+									{ 955.00000715, 1065.9450719, -2007.71928 },
+									{ 955.00000934, 1061.0869964, -2014.327121 },
+									{ 955.00001197, 1055.9445411, -2020.717334 },
+									{ 955.00001509, 1050.5274949, -2026.877755 },
+									{ 955.00001876, 1044.8461694, -2032.796657 },
+									{ 955.00002301, 1038.9113793, -2038.462772 },
+									{ 955.0000279, 1032.7344219, -2043.865317 },
+									{ 955.00003347, 1026.3270554, -2048.994005 },
+									{ 955.00003976, 1019.7014765, -2053.839074 },
+									{ 955.00004682, 1012.8702974, -2058.391303 },
+									{ 955.00005467, 1005.8465217, -2062.642024 },
+									{ 955.00006336, 998.64351949, -2066.583147 },
+									{ 955.0000729, 991.27500209, -2070.20717 },
+									{ 955.00008334, 983.75499591, -2073.507193 },
+									{ 955.00009468, 976.0978157, -2076.476936 },
+									{ 955.00010694, 968.31803736, -2079.110745 },
+									{ 955.00012013, 960.43047011, -2081.403606 },
+									{ 955.00013426, 952.45012841, -2083.351156 },
+									{ 955.00014933, 944.39220328, -2084.949686 },
+									{ 955.00016532, 936.27203344, -2086.196154 },
+									{ 955.00018223, 928.10507609, -2087.088186 },
+									{ 955.00020002, 919.90687751, -2087.624086 },
+									{ 955.00021868, 911.69304343, -2087.802833 },
+									{ 955.002976, 405.33745963, -2087.802833 },
+									{ 955.00740453, 4.2637299285, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_3_O_perf1"
+					distanceFromHead="2153.2628264255054"/>
+				<Perforation
+					name="Producer_3_O_perf2"
+					distanceFromHead="2161.5957619789133"/>
+				<Perforation
+					name="Producer_3_O_perf3"
+					distanceFromHead="2167.9052765330825"/>
+				<Perforation
+					name="Producer_3_O_perf4"
+					distanceFromHead="2172.935341921649"/>
+				<Perforation
+					name="Producer_3_O_perf5"
+					distanceFromHead="2181.7297435103656"/>
+				<Perforation
+					name="Producer_3_O_perf6"
+					distanceFromHead="2191.713264283404"/>
+				<Perforation
+					name="Producer_3_O_perf7"
+					distanceFromHead="2201.6930434300994"/>
+				<Perforation
+					name="Producer_3_O_perf8"
+					distanceFromHead="2211.6930434302476"/>
+				<Perforation
+					name="Producer_3_O_perf9"
+					distanceFromHead="2221.693043430396"/>
+				<Perforation
+					name="Producer_3_O_perf10"
+					distanceFromHead="2231.693043430544"/>
+				<Perforation
+					name="Producer_3_O_perf11"
+					distanceFromHead="2241.6930434306923"/>
+				<Perforation
+					name="Producer_3_O_perf12"
+					distanceFromHead="2251.6930434308406"/>
+				<Perforation
+					name="Producer_3_O_perf13"
+					distanceFromHead="2261.693043430989"/>
+				<Perforation
+					name="Producer_3_O_perf14"
+					distanceFromHead="2271.693043431137"/>
+				<Perforation
+					name="Producer_3_O_perf15"
+					distanceFromHead="2281.6930434312853"/>
+				<Perforation
+					name="Producer_3_O_perf16"
+					distanceFromHead="2291.6930434314336"/>
+				<Perforation
+					name="Producer_3_O_perf17"
+					distanceFromHead="2301.693043431582"/>
+				<Perforation
+					name="Producer_3_O_perf18"
+					distanceFromHead="2311.69304343173"/>
+				<Perforation
+					name="Producer_3_O_perf19"
+					distanceFromHead="2321.6930434318783"/>
+				<Perforation
+					name="Producer_3_O_perf20"
+					distanceFromHead="2331.6930434320266"/>
+				<Perforation
+					name="Producer_3_O_perf21"
+					distanceFromHead="2341.693043432175"/>
+				<Perforation
+					name="Producer_3_O_perf22"
+					distanceFromHead="2351.693043432323"/>
+				<Perforation
+					name="Producer_3_O_perf23"
+					distanceFromHead="2361.6930434324713"/>
+				<Perforation
+					name="Producer_3_O_perf24"
+					distanceFromHead="2371.6930434326196"/>
+				<Perforation
+					name="Producer_3_O_perf25"
+					distanceFromHead="2381.693043432768"/>
+				<Perforation
+					name="Producer_3_O_perf26"
+					distanceFromHead="2391.693043432916"/>
+				<Perforation
+					name="Producer_3_O_perf27"
+					distanceFromHead="2401.6930434330643"/>
+				<Perforation
+					name="Producer_3_O_perf28"
+					distanceFromHead="2411.6930434332126"/>
+				<Perforation
+					name="Producer_3_O_perf29"
+					distanceFromHead="2421.693043433361"/>
+				<Perforation
+					name="Producer_3_O_perf30"
+					distanceFromHead="2431.6930434335095"/>
+				<Perforation
+					name="Producer_3_O_perf31"
+					distanceFromHead="2441.6930434336577"/>
+				<Perforation
+					name="Producer_3_O_perf32"
+					distanceFromHead="2451.693043433806"/>
+				<Perforation
+					name="Producer_3_O_perf33"
+					distanceFromHead="2461.6930434339542"/>
+				<Perforation
+					name="Producer_3_O_perf34"
+					distanceFromHead="2471.6930434341025"/>
+				<Perforation
+					name="Producer_3_O_perf35"
+					distanceFromHead="2481.6930434342507"/>
+				<Perforation
+					name="Producer_3_O_perf36"
+					distanceFromHead="2491.693043434399"/>
+				<Perforation
+					name="Producer_3_O_perf37"
+					distanceFromHead="2501.6930434345472"/>
+				<Perforation
+					name="Producer_3_O_perf38"
+					distanceFromHead="2511.6930434346955"/>
+				<Perforation
+					name="Producer_3_O_perf39"
+					distanceFromHead="2521.6930434348437"/>
+				<Perforation
+					name="Producer_3_O_perf40"
+					distanceFromHead="2531.693043434992"/>
+				<Perforation
+					name="Producer_3_O_perf41"
+					distanceFromHead="2541.69304343514"/>
+				<Perforation
+					name="Producer_3_O_perf42"
+					distanceFromHead="2551.6930434352885"/>
+				<Perforation
+					name="Producer_3_O_perf43"
+					distanceFromHead="2561.6930434354367"/>
+				<Perforation
+					name="Producer_3_O_perf44"
+					distanceFromHead="2571.693043435585"/>
+				<Perforation
+					name="Producer_3_O_perf45"
+					distanceFromHead="2581.693043435733"/>
+				<Perforation
+					name="Producer_3_O_perf46"
+					distanceFromHead="2591.6930434358815"/>
+				<Perforation
+					name="Producer_3_O_perf47"
+					distanceFromHead="2601.6930434360297"/>
+				<Perforation
+					name="Producer_3_O_perf48"
+					distanceFromHead="2611.693043436178"/>
+				<Perforation
+					name="Producer_3_O_perf49"
+					distanceFromHead="2621.693043436326"/>
+				<Perforation
+					name="Producer_3_O_perf50"
+					distanceFromHead="2631.6930434364745"/>
+				<Perforation
+					name="Producer_3_O_perf51"
+					distanceFromHead="2641.6930434366227"/>
+				<Perforation
+					name="Producer_3_O_perf52"
+					distanceFromHead="2651.693043436771"/>
+				<Perforation
+					name="Producer_3_O_perf53"
+					distanceFromHead="2661.693043436919"/>
+				<Perforation
+					name="Producer_3_O_perf54"
+					distanceFromHead="2671.6930434370674"/>
+				<Perforation
+					name="Producer_3_O_perf55"
+					distanceFromHead="2681.6930434372157"/>
+				<Perforation
+					name="Producer_3_O_perf56"
+					distanceFromHead="2691.693043437364"/>
+				<Perforation
+					name="Producer_3_O_perf57"
+					distanceFromHead="2701.0152515338814"/>
+				<Perforation
+					name="Producer_3_O_perf58"
+					distanceFromHead="2710.3374596306303"/>
+				<Perforation
+					name="Producer_3_O_perf59"
+					distanceFromHead="2720.3374596312397"/>
+				<Perforation
+					name="Producer_3_O_perf60"
+					distanceFromHead="2730.3374596318495"/>
+				<Perforation
+					name="Producer_3_O_perf61"
+					distanceFromHead="2740.3374596324593"/>
+				<Perforation
+					name="Producer_3_O_perf62"
+					distanceFromHead="2750.3374596330686"/>
+				<Perforation
+					name="Producer_3_O_perf63"
+					distanceFromHead="2760.337459633678"/>
+				<Perforation
+					name="Producer_3_O_perf64"
+					distanceFromHead="2770.337459634288"/>
+				<Perforation
+					name="Producer_3_O_perf65"
+					distanceFromHead="2780.3374596348976"/>
+				<Perforation
+					name="Producer_3_O_perf66"
+					distanceFromHead="2790.337459635507"/>
+				<Perforation
+					name="Producer_3_O_perf67"
+					distanceFromHead="2800.3374596361164"/>
+				<Perforation
+					name="Producer_3_O_perf68"
+					distanceFromHead="2810.337459636726"/>
+				<Perforation
+					name="Producer_3_O_perf69"
+					distanceFromHead="2820.337459637336"/>
+				<Perforation
+					name="Producer_3_O_perf70"
+					distanceFromHead="2830.3374596379454"/>
+				<Perforation
+					name="Producer_3_O_perf71"
+					distanceFromHead="2840.3374596385547"/>
+				<Perforation
+					name="Producer_3_O_perf72"
+					distanceFromHead="2850.3374596391645"/>
+				<Perforation
+					name="Producer_3_O_perf73"
+					distanceFromHead="2860.3374596397744"/>
+				<Perforation
+					name="Producer_3_O_perf74"
+					distanceFromHead="2870.3374596403837"/>
+				<Perforation
+					name="Producer_3_O_perf75"
+					distanceFromHead="2880.337459640993"/>
+				<Perforation
+					name="Producer_3_O_perf76"
+					distanceFromHead="2890.337459641603"/>
+				<Perforation
+					name="Producer_3_O_perf77"
+					distanceFromHead="2900.3374596422127"/>
+				<Perforation
+					name="Producer_3_O_perf78"
+					distanceFromHead="2910.337459642822"/>
+				<Perforation
+					name="Producer_3_O_perf79"
+					distanceFromHead="2950.3374596452604"/>
+				<Perforation
+					name="Producer_3_O_perf80"
+					distanceFromHead="2960.33745964587"/>
+				<Perforation
+					name="Producer_3_O_perf81"
+					distanceFromHead="2970.3374596464796"/>
+				<Perforation
+					name="Producer_3_O_perf82"
+					distanceFromHead="2980.3374596470894"/>
+				<Perforation
+					name="Producer_3_O_perf83"
+					distanceFromHead="2990.337459647699"/>
+				<Perforation
+					name="Producer_3_O_perf84"
+					distanceFromHead="3000.337459648308"/>
+				<Perforation
+					name="Producer_3_O_perf85"
+					distanceFromHead="3006.388729821563"/>
+				<Perforation
+					name="Producer_3_O_perf86"
+					distanceFromHead="3010.337459648918"/>
+				<Perforation
+					name="Producer_3_O_perf87"
+					distanceFromHead="3020.337459649528"/>
+				<Perforation
+					name="Producer_3_O_perf88"
+					distanceFromHead="3021.388729822478"/>
+				<Perforation
+					name="Producer_3_O_perf89"
+					distanceFromHead="3030.337459650137"/>
+				<Perforation
+					name="Producer_3_O_perf90"
+					distanceFromHead="3040.3374596507465"/>
+				<Perforation
+					name="Producer_3_O_perf91"
+					distanceFromHead="3050.3374596513563"/>
+				<Perforation
+					name="Producer_3_O_perf92"
+					distanceFromHead="3060.337459651966"/>
+				<Perforation
+					name="Producer_3_O_perf93"
+					distanceFromHead="3070.3374596525755"/>
+				<Perforation
+					name="Producer_3_O_perf94"
+					distanceFromHead="3080.337459653185"/>
+				<Perforation
+					name="Producer_3_O_perf95"
+					distanceFromHead="3090.337459653795"/>
+				<Perforation
+					name="Producer_3_O_perf96"
+					distanceFromHead="3096.38872982705"/>
+			</InternalWell>
+
+
+
+       
+	</Mesh>
+
+	<Solvers>
+		<CompositionalMultiphaseReservoir
+			name="coupledFlowAndWells"
+			flowSolverName="compositionalMultiphaseFlow"
+			wellSolverName="compositionalMultiphaseWell"
+			logLevel="1"
+			initialDt="10"
+			targetRegions="{ reservoir, wellRegion1, wellRegion2, wellRegion3, wellRegion4, wellRegion5, wellRegion6, wellRegion7 }">
+			
+			<NonlinearSolverParameters
+				newtonTol="1.0e-6"
+				newtonMaxIter="40"
+				timeStepDecreaseIterLimit="1"
+				timeStepIncreaseIterLimit="0.9"
+				timeStepCutFactor="0.7"
+				maxTimeStepCuts="50"
+				maxSubSteps="50"
+				timeStepIncreaseFactor="1.01"
+				lineSearchAction="Attempt"/>
+				
+			<LinearSolverParameters
+				solverType="fgmres"
+				preconditionerType="mgr"
+				krylovTol="1e-14"
+				krylovAdaptiveTol="1"				
+				krylovWeakestTol="1e-8"/>
+		</CompositionalMultiphaseReservoir>
+
+		<CompositionalMultiphaseFVM
+			name="compositionalMultiphaseFlow"
+			targetRegions="{ reservoir }"
+			discretization="fluidTPFA"
+			temperature="297.15"
+			maxCompFractionChange="0.3"
+			logLevel="1"
+			useMass="1"/>
+			
+		<CompositionalMultiphaseWell
+			name="compositionalMultiphaseWell"
+			targetRegions="{ wellRegion1, wellRegion2, wellRegion3, wellRegion4, wellRegion5, wellRegion6, wellRegion7 }"
+			maxCompFractionChange="0.5"
+			logLevel="1"
+			useMass="1">
+			<WellControls
+				name="wellControls1"
+				type="producer"
+				control="phaseVolRate"
+				useSurfaceConditions="1"
+				referenceElevation="-2087"
+				surfacePressure="101325"
+				surfaceTemperature="288.7056"
+				targetBHP="15000000"
+				targetPhaseRate="0.0013888889"				
+				targetPhaseName="oil"/>
+
+			<WellControls
+				name="wellControls2"
+				type="injector"
+				control="BHP"
+				useSurfaceConditions="1"
+				referenceElevation="-2087"
+				surfacePressure="101325"
+				surfaceTemperature="288.7056"
+				targetBHP="32000000"
+				targetPhaseRate="6.94444e-4"				
+				targetPhaseName="water"/>
+		</CompositionalMultiphaseWell>
+	</Solvers>
+
+	<Events
+		maxTime="94672800">
+		<PeriodicEvent
+			name="MySilo"
+			timeFrequency="2e6"
+			target="/Outputs/SiloOutput"/>
+		<PeriodicEvent
+			name="MyVTK"
+			timeFrequency="2e6"
+			target="/Outputs/vtkOutput"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput1"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput1"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput2"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput2"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput3"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput3"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput4"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput4"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput5"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput5"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput6"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput6"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput7"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput7"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput8"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput8"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput9"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput9"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput10"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput10"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput11"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput11"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput12"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput12"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput13"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput13"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput14"
+			timeFrequency="1e6"
+			target="/Outputs/timeHistoryOutput14"/>
+
+		
+		<PeriodicEvent
+			name="solverApplications"
+			maxEventDt="5e5"
+			target="/Solvers/coupledFlowAndWells"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection1"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection1"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection2"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection1"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection3"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection2"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection4"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection2"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection5"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection3"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection6"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection3"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection7"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection4"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection8"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection4"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection9"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection5"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection10"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection5"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection11"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection6"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection12"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection6"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection13"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection7"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection14"
+			timeFrequency="1e6"
+			target="/Tasks/wellPressureCollection7"/>
+
+		<PeriodicEvent
+			name="restarts"
+			timeFrequency="7.5e6"
+			targetExactTimestep="0"
+			target="/Outputs/restartOutput"/>    
+	</Events>
+
+
+	<NumericalMethods>
+		<FiniteVolume>
+			<TwoPointFluxApproximation
+				name="fluidTPFA"/>
+		</FiniteVolume>
+	</NumericalMethods>
+
+	<ElementRegions>
+		<CellElementRegion
+			name="reservoir"
+			cellBlocks="{ hexahedra }"
+			materialList="{ fluid, rock, relperm }"/>
+
+		<WellElementRegion
+			name="wellRegion1"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion2"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion3"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion4"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion5"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion6"
+			materialList="{ fluid, relpermWell }"/>
+
+		<WellElementRegion
+			name="wellRegion7"
+			materialList="{ fluid, relpermWell }"/>
+	</ElementRegions>
+
+
+	<Constitutive>
+		<DeadOilFluid
+			name="fluid"
+			phaseNames="{ oil, water }"
+			surfaceDensities="{ 873.5, 1013 }"
+			componentMolarWeight="{ 114e-3, 18e-3 }"
+			tableFiles="{ PVDO.txt, PVTW.txt }"/>
+
+		<BrooksCoreyRelativePermeability
+            name="relpermWell"
+            phaseNames="{ oil, water }"
+            phaseMinVolumeFraction="{ 0.0, 0.0 }"
+            phaseRelPermExponent="{ 1.0, 1.0 }"
+            phaseRelPermMaxValue="{ 1.0, 1.0 }"/>
+
+		<TableRelativePermeability
+			name="relperm"
+			phaseNames="{ oil, water }"
+			wettingNonWettingRelPermTableNames="{ waterRelativePermeabilityTable, oilRelativePermeabilityTable }"/>
+
+		<CompressibleSolidConstantPermeability
+			name="rock"
+			solidModelName="nullSolid"
+			porosityModelName="rockPorosity"
+			permeabilityModelName="rockPerm"/>
+
+		<NullModel
+			name="nullSolid"/>
+
+		<PressurePorosity
+			name="rockPorosity"
+			defaultReferencePorosity="0.3"
+			referencePressure="101325"
+			compressibility="6.0e-12"/>
+
+		<ConstantPermeability
+			name="rockPerm"
+			permeabilityComponents="{ 1.03627e-15, 1.03627e-15, 1.46e-16 }"/>
+
+	</Constitutive>
+
+
+	<FieldSpecifications>
+		<FieldSpecification
+			name="initialPressure"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="pressure"
+			scale="100000"
+			functionName="pressureFunc"/>
+
+		<FieldSpecification
+			name="referencePorosity"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir"
+			fieldName="rockPorosity_referencePorosity"
+			scale="1"
+			functionName="poroFunc"/>
+
+		<FieldSpecification
+			name="initialComposition_oil"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="globalCompFraction"
+			component="0"
+			scale="0.94998"/>
+
+		<FieldSpecification
+			name="initialComposition_water"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="globalCompFraction"
+			component="1"
+			scale="0.05002"/>
+
+		<FieldSpecification
+			name="permx"
+			initialCondition="1"
+			component="0"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permxFunc"/>
+
+		<FieldSpecification
+			name="permy"
+			initialCondition="1"
+			component="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permyFunc"/>
+
+		<FieldSpecification
+			name="permz"
+			initialCondition="1"
+			component="2"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permzFunc"/>
+
+	</FieldSpecifications>
+
+
+	<Functions>    
+		<TableFunction
+			name="waterRelativePermeabilityTable"
+			coordinateFiles="{ phaseVolFraction_water.txt }"
+			voxelFile="relPerm_water.txt"/>
+
+		<TableFunction
+			name="oilRelativePermeabilityTable"
+			coordinateFiles="{ phaseVolFraction_oil.txt }"
+			voxelFile="relPerm_oil.txt"/>
+
+		<TableFunction
+			name="permxFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permx.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="permyFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permy.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="permzFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permz.geos"
+			interpolation="linear"/> 
+
+		<TableFunction
+			name="pressureFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="pressure.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="poroFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="poro.geos"
+			interpolation="linear"/> 
+	</Functions>      
+
+
+	<Outputs>
+		<Silo
+			name="SiloOutput"/>
+		
+		<VTK
+			name="vtkOutput"/>
+
+		<TimeHistory
+			name="timeHistoryOutput1"
+			sources="{ /Tasks/wellRateCollection1 }"
+			filename="wellRateHistory1"/>
+
+		<TimeHistory
+			name="timeHistoryOutput2"
+			sources="{ /Tasks/wellRateCollection2 }"
+			filename="wellRateHistory2"/>
+
+		<TimeHistory
+			name="timeHistoryOutput3"
+			sources="{ /Tasks/wellRateCollection3 }"
+			filename="wellRateHistory3"/>
+
+		<TimeHistory
+			name="timeHistoryOutput4"
+			sources="{ /Tasks/wellRateCollection4 }"
+			filename="wellRateHistory4"/>
+
+		<TimeHistory
+			name="timeHistoryOutput5"
+			sources="{ /Tasks/wellRateCollection5 }"
+			filename="wellRateHistory5"/>
+
+		<TimeHistory
+			name="timeHistoryOutput6"
+			sources="{ /Tasks/wellRateCollection6 }"
+			filename="wellRateHistory6"/>
+
+		<TimeHistory
+			name="timeHistoryOutput7"
+			sources="{ /Tasks/wellRateCollection7 }"
+			filename="wellRateHistory7"/>
+
+
+		
+		<TimeHistory
+			name="timeHistoryOutput8"
+			sources="{/Tasks/wellPressureCollection1}"
+			filename="pressure_history1"/>
+
+		<TimeHistory
+			name="timeHistoryOutput9"
+			sources="{/Tasks/wellPressureCollection2}"
+			filename="pressure_history2"/>
+
+		<TimeHistory
+			name="timeHistoryOutput10"
+			sources="{/Tasks/wellPressureCollection3}"
+			filename="pressure_history3"/>
+
+		<TimeHistory
+			name="timeHistoryOutput11"
+			sources="{/Tasks/wellPressureCollection4}"
+			filename="pressure_history4"/>
+
+		<TimeHistory
+			name="timeHistoryOutput12"
+			sources="{/Tasks/wellPressureCollection5}"
+			filename="pressure_history5"/>
+
+		<TimeHistory
+			name="timeHistoryOutput13"
+			sources="{/Tasks/wellPressureCollection6}"
+			filename="pressure_history6"/>
+
+		<TimeHistory
+			name="timeHistoryOutput14"
+			sources="{/Tasks/wellPressureCollection7}"
+			filename="pressure_history7"/>
+
+		<Restart
+			name="restartOutput"/>
+
+	</Outputs>
+
+	
+	<Tasks>
+		<PackCollection
+			name="wellRateCollection1"
+			objectPath="ElementRegions/wellRegion1/wellRegion1UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection1"
+			objectPath="ElementRegions/wellRegion1/wellRegion1UniqueSubRegion"
+			fieldName="pressure"/>
+
+
+		<PackCollection
+			name="wellRateCollection2"
+			objectPath="ElementRegions/wellRegion2/wellRegion2UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection2"
+			objectPath="ElementRegions/wellRegion2/wellRegion2UniqueSubRegion"
+			fieldName="pressure"/>
+
+		<PackCollection
+			name="wellRateCollection3"
+			objectPath="ElementRegions/wellRegion3/wellRegion3UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection3"
+			objectPath="ElementRegions/wellRegion3/wellRegion3UniqueSubRegion"
+			fieldName="pressure"/>
+
+		<PackCollection
+			name="wellRateCollection4"
+			objectPath="ElementRegions/wellRegion4/wellRegion4UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection4"
+			objectPath="ElementRegions/wellRegion4/wellRegion4UniqueSubRegion"
+			fieldName="pressure"/>
+
+		<PackCollection
+			name="wellRateCollection5"
+			objectPath="ElementRegions/wellRegion5/wellRegion5UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection5"
+			objectPath="ElementRegions/wellRegion5/wellRegion5UniqueSubRegion"
+			fieldName="pressure"/>
+
+		<PackCollection
+			name="wellRateCollection6"
+			objectPath="ElementRegions/wellRegion6/wellRegion6UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection6"
+			objectPath="ElementRegions/wellRegion6/wellRegion6UniqueSubRegion"
+			fieldName="pressure"/>
+
+		<PackCollection
+			name="wellRateCollection7"
+			objectPath="ElementRegions/wellRegion7/wellRegion7UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+		
+		<PackCollection
+			name="wellPressureCollection7"
+			objectPath="ElementRegions/wellRegion7/wellRegion7UniqueSubRegion"
+			fieldName="pressure"/>
+	</Tasks>
+
+</Problem>
